@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MD-Software-Solutions.github.io/SkillBridge-website",
+  "homepage": "https://github.com/KhangNguyen872/waimafundacion",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -14,7 +14,7 @@
     "browserify-zlib": "^0.2.0",
     "cors": "^2.8.5",
     "dompurify": "^3.2.3",
-    "gh-pages": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "https-browserify": "^1.0.0",
     "i18next": "^24.2.2",
     "i18next-browser-languagedetector": "^8.0.4",
