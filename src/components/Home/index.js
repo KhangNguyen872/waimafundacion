@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
 import './index.scss';
-import heroGuy from '../../assets/img/heroGuy.png';
-import shape1 from '../../assets/img/shape1.png';
 import HomeCard from './HomeCard';
-import { AnimatedOnScroll } from 'react-animated-css-onscroll';
 import MenuBarLanding from '../MenubarLanding';
 import { Link } from 'react-router-dom';
 
@@ -14,6 +11,9 @@ import { Link } from 'react-router-dom';
  * component. The layout is styled to provide a visually engaging user experience.
  */
 const Home = () => {
+    const colors = ["#3F4581", "#D9991E", "#9DAD2A", "#3F4581", "#D9991E"];
+    const letters = "WAIMA".split("");
+  
     return (
         <div className='size-window'>
             
@@ -24,26 +24,33 @@ const Home = () => {
                     <div className='hero-content'>
                         <div className='home-content-grid-wrapper'>
                             <div className='text-box-wrapper'>
-                                <h1>SkillBridge</h1>
-                                <p>Empowering Students, Enabling Employers</p>
+                                <h1>
+                                    <span className='text-shadow-white' style={{ marginRight: "20px" }}>
+                                        {letters.map((letter, index) => (
+                                        <span key={index} style={{ color: colors[index] }}>
+                                            {letter}
+                                        </span>
+                                        ))}
+                                    </span>
+                                    FOUNDATION
+                                </h1>         
+
+                                <p>Empowering Communities, Transforming Lives.</p>
+
                                 <div className='button-switch'>
                                     <h2 className='hover-state-1'>
-                                        <Link className='link-txt' to="/signUp">Join</Link>
+                                        <Link className='link-txt' to="/">Learn More</Link>
                                     </h2>
                                     <h3 className='hover-state-2'>
-                                        <Link className='link-txt' to="/signIn">Sign In</Link>
+                                        <Link className='link-txt' to="/">Support Us</Link>
                                         <div className='switch-block'></div>
                                     </h3>
                                 </div>
                             </div>
 
-                            <div className='circle-wrapper'>
-                                <div className='circle-obj'></div>
-                            </div>
                         </div>
                     </div>
 
-                    <img className='ship-img' src={heroGuy} alt='heroShip' />
                 </div>
             </section>
 

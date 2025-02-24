@@ -15,25 +15,49 @@ export default function MenubarLanding() {
             command: () => navigate('/')
         },
         {
-            label: 'User',
-            icon: 'pi pi-fw pi-user',
+            label: 'About',
+            icon: 'pi pi-fw pi-info-circle',
+            command: () => navigate('/')
+        },
+        {
+            label: 'Programs',
+            icon: 'pi pi-fw pi-book',
+            command: () => navigate('/')
+        },
+        {
+            label: 'Reports DIAN',
+            icon: 'pi pi-fw pi-list-check',
             items: [
                 {
-                    label: 'Log In',
-                    icon: 'pi pi-fw pi-user-plus',
-                    command: () => navigate('/signin')
+                    label: 'Report DIAN 2017',
+                    icon: 'pi pi-fw pi-file',
                 },
                 {
-                    label: 'Sign Up',
-                    icon: 'pi pi-fw pi-user-minus',
-                    command: () => navigate('/signup')
+                    label: 'Report DIAN 2018',
+                    icon: 'pi pi-fw pi-file',
+                },
+                {
+                    label: 'Report DIAN 2019',
+                    icon: 'pi pi-fw pi-file',
+                },
+                {
+                    label: 'Report DIAN 2019',
+                    icon: 'pi pi-fw pi-file',
+                },
+                {
+                    label: 'Report DIAN 2020',
+                    icon: 'pi pi-fw pi-file',
+                },
+                {
+                    label: 'Report DIAN 2021',
+                    icon: 'pi pi-fw pi-file',
                 }
             ]
         },
         {
-            label: 'About',
-            icon: 'pi pi-fw pi-info-circle',
-            command: () => navigate('/ContactDashBoard')
+            label: 'Contact',
+            icon: 'pi pi-fw pi-envelope',
+            command: () => navigate('/')
         }
     ];
 

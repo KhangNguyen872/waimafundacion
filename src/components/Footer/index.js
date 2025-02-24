@@ -9,27 +9,26 @@ export default function Footer() {
         <div className='footer-wrapper-primary'>
             <div className='footer-content-wrap grid-col-4'>
                 <div>
-                    <h1>SkillBridge</h1>
+                    <h1>WAIMA</h1>
                     <p>
-                        Connecting students with opportunities! Our platform allows students to sign up for internships, jobs, and experiences while teachers and employers can post job listings. Start exploring and take the next step in your career journey today!
-                    </p>
+                        Waima Foundation is dedicated to empowering communities through education, sustainable development, and social programs. We strive to create lasting change by supporting initiatives that uplift individuals and promote a brighter future for all.                    </p>
                 </div>
                 <div className='center-wrapper'>
                     <div className='foot-link-wrapper'>
                         <h1>Links</h1>
                         <div className='foot-link-repsonsive'>
                             <Link className='foot-link' to="/contactdashboard">About</Link>
-                            <Link className='foot-link' to="/contactdashboard/DashBoardFAQ">FAQ</Link>
-                            <Link className='foot-link' to="/signin">Sign In</Link>
-                            <Link className='foot-link' to="/signup">Sign Up</Link>
+                            <Link className='foot-link' to="/contactdashboard/DashBoardFAQ">Programs</Link>
+                            <Link className='foot-link' to="/signin">Contacts</Link>
+                            <Link className='foot-link' to="/signup">N/A</Link>
                         </div>
                     </div>
                 </div>
                 <div>
                     <h1>Contacts</h1>
-                    <p>5575 State Bridge Rd, Johns Creek, GA 30022</p>
-                    <p>skillbridgecorp@gmail.com</p>
-                    <p>(470) 939 - 2806</p>
+                    <p>Cl. 77 #45-28, Aranjuez, Medellín, Aranjuez, Medellín, Antioquia, Colombia</p>
+                    <p>info@waimafundacion.org</p>
+                    <p>+57 3137283858</p>
                 </div>
                 <div>
                     <h1 className='center-txt-768'>Socials</h1>
@@ -41,7 +40,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <Divider className='span-4 marginTop-2rem' />
-                <p className="span-4 footer-copyright">© SkillBridge Corporation - 2025</p>
+                <p className="span-4 footer-copyright">© WAIMA Foundation - 2025</p>
 
             </div>
         </div>

@@ -1,0 +1,86 @@
+Date : 2025-02-21 15:43:10
+Directory : c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion
+Total : 37 files,  21009 codes, 470 comments, 351 blanks, all 21830 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          4 |     19,287 |          0 |          3 |     19,290 |
+| SCSS       |         11 |        934 |        307 |        230 |      1,471 |
+| JavaScript |         18 |        739 |        163 |        106 |      1,008 |
+| HTML       |          1 |         21 |          0 |          1 |         22 |
+| CSS        |          1 |         17 |          0 |          3 |         20 |
+| Markdown   |          1 |         10 |          0 |          8 |         18 |
+| XML        |          1 |          1 |          0 |          0 |          1 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                                                  | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                                                     |         37 |     21,009 |        470 |        351 |     21,830 |
+| . (Files)                                                                                                                                                             |          5 |     19,284 |          0 |         12 |     19,296 |
+| public                                                                                                                                                                |          2 |         46 |          0 |          2 |         48 |
+| src                                                                                                                                                                   |         30 |      1,679 |        470 |        337 |      2,486 |
+| src (Files)                                                                                                                                                           |          8 |        112 |         30 |         22 |        164 |
+| src\components                                                                                                                                                        |         21 |      1,445 |        425 |        294 |      2,164 |
+| src\components\ContactDashBoard                                                                                                                                       |         11 |        536 |        358 |        128 |      1,022 |
+| src\components\ContactDashBoard (Files)                                                                                                                               |          1 |         21 |          7 |          4 |         32 |
+| src\components\ContactDashBoard\DashBoardContact                                                                                                                      |          2 |        206 |          7 |         31 |        244 |
+| src\components\ContactDashBoard\DashBoardFAQ                                                                                                                          |          2 |        157 |         13 |         20 |        190 |
+| src\components\ContactDashBoard\DashBoardLayout                                                                                                                       |          2 |         54 |         11 |         13 |         78 |
+| src\components\ContactDashBoard\DashBoardStatistic                                                                                                                    |          2 |          0 |        303 |         44 |        347 |
+| src\components\ContactDashBoard\sideBarComp                                                                                                                           |          2 |         98 |         17 |         16 |        131 |
+| src\components\Footer                                                                                                                                                 |          2 |        163 |          0 |         26 |        189 |
+| src\components\Home                                                                                                                                                   |          4 |        625 |         53 |        120 |        798 |
+| src\components\Home (Files)                                                                                                                                           |          2 |        269 |         31 |         53 |        353 |
+| src\components\Home\HomeCard                                                                                                                                          |          2 |        356 |         22 |         67 |        445 |
+| src\components\Layout                                                                                                                                                 |          2 |         28 |          8 |          7 |         43 |
+| src\components\MenubarLanding                                                                                                                                         |          2 |         93 |          6 |         13 |        112 |
+| src\context                                                                                                                                                           |          1 |        122 |         15 |         21 |        158 |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                                                              | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\.prettierrc                                                   | JSON       |          6 |          0 |          0 |          6 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\README.md                                                     | Markdown   |         10 |          0 |          8 |         18 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\package-lock.json                                             | JSON       |     19,179 |          0 |          1 |     19,180 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\package.json                                                  | JSON       |         77 |          0 |          1 |         78 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\public\index.html                                             | HTML       |         21 |          0 |          1 |         22 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\public\manifest.json                                          | JSON       |         25 |          0 |          1 |         26 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\App.js                                                    | JavaScript |         23 |         14 |          5 |         42 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\App.scss                                                  | SCSS       |         32 |          0 |          6 |         38 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\App.test.js                                               | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardContact\index.js     | JavaScript |         85 |          7 |          7 |         99 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardContact\index.scss   | SCSS       |        121 |          0 |         24 |        145 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardFAQ\index.js         | JavaScript |         79 |          6 |          5 |         90 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardFAQ\index.scss       | SCSS       |         78 |          7 |         15 |        100 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardLayout\index.js      | JavaScript |         37 |          8 |         10 |         55 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardLayout\index.scss    | SCSS       |         17 |          3 |          3 |         23 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardStatistic\index.js   | JavaScript |          0 |         67 |          6 |         73 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardStatistic\index.scss | SCSS       |          0 |        236 |         38 |        274 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\index.js                      | JavaScript |         21 |          7 |          4 |         32 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\sideBarComp\index.js          | JavaScript |         31 |          7 |          5 |         43 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\sideBarComp\index.scss        | SCSS       |         67 |         10 |         11 |         88 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Footer\index.js                                | JavaScript |         46 |          0 |          3 |         49 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Footer\index.scss                              | SCSS       |        117 |          0 |         23 |        140 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Home\HomeCard\index.js                         | JavaScript |        110 |          2 |          9 |        121 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Home\HomeCard\index.scss                       | SCSS       |        246 |         20 |         58 |        324 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Home\index.js                                  | JavaScript |         46 |          6 |         11 |         63 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Home\index.scss                                | SCSS       |        223 |         25 |         42 |        290 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Layout\index.js                                | JavaScript |         19 |          6 |          5 |         30 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Layout\index.scss                              | SCSS       |          9 |          2 |          2 |         13 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\MenubarLanding\index.js                        | JavaScript |         69 |          2 |          5 |         76 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\MenubarLanding\index.scss                      | SCSS       |         24 |          4 |          8 |         36 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\context\AuthContext.js                                    | JavaScript |        122 |         15 |         21 |        158 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\index.css                                                 | CSS        |         17 |          0 |          3 |         20 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\index.js                                                  | JavaScript |         19 |         12 |          3 |         34 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\logo.svg                                                  | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\reportWebVitals.js                                        | JavaScript |         12 |          0 |          2 |         14 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\setupTests.js                                             | JavaScript |          1 |          4 |          1 |          6 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\webpack.config.js                                             | JavaScript |         12 |          0 |          2 |         14 |
+| Total                                                                                                                                                                 |            |     21,009 |        470 |        351 |     21,830 |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

@@ -1,105 +1,117 @@
 import './index.scss';
 import { Divider } from 'primereact/divider';
-import React, { useState } from 'react';
-import ChartActiveUser from '../../../assets/img/ChartActiveUser.png';
-import DrawnLine from '../../../assets/img/DrawnLine.png';
-import PieIndustry from '../../../assets/img/PieIndustry.png';
+import React from 'react';
+import saciar from "../../../assets/img/saciar.png"
+import casa from "../../../assets/img/casa.png"
+import logob from "../../../assets/img/logob.png"
+import lianza from "../../../assets/img/lianza.png"
+import logoa from "../../../assets/img/logoa.png"
+import '../../../App.scss';
+import { Timeline } from 'primereact/timeline';
 import { Card } from 'primereact/card';
-import img1 from "../../../assets/img/ChartActiveUser.png"
+import { Button } from 'primereact/button';
 
-
-
-/**
- * The `CardSection` component presents a section of the home page, with three key areas.
- * It displays informational cards with text content, a logo, and a carousel showcasing
- * statistics and success stories related to `SkillBridge`. PrimeReact's `Divider` and `Carousel`
- * are used for layout and interactive display. Images pulled from the local assets. 
- */
 const CardSection = () => {
+
+  const events = [
+    { 
+      title: 'The Beginning', 
+      description: "Waima's work began in 2013, when they sought out various employment alternatives for people with disabilities, chronic illnesses, victims of conflict and caregivers. They sought opportunities that would allow people to work from home with crafts or outsourcing tasks and thus be able to provide their services without the mobility limitations that the world presented.", 
+      icon: 'pi pi-flag', 
+      color: '#9C27B0' 
+    },
+    { 
+      title: 'Established!', 
+      description: 'The Waima Foundation was legally established in May 2016 by Claudia Pareja Osorio, Guillermo León Morales Múnera, Luz Omaira Hernández Sampedro and Oliva Ligia Delgado Moreno. The founders, who have directly experienced the reality of disability and chronic illness, decided to create Waima with the purpose of helping people who, like them, face a different condition and with it the existing social obstacles;', 
+      icon: 'pi pi-history', 
+      color: '#3F4581' 
+    },
+    { 
+      title: 'Ambitions', 
+      description: 'full of hope, they seek to support through various activities such as training in manual arts, social entrepreneurship, empowerment and life projects, among others. In Waima, they seek that each of the participants can contribute regardless of their condition', 
+      icon: 'pi pi-star', 
+      color: '#D9991E' 
+    },
+    { 
+      title: 'Delivered', 
+      description: 'In its process, the Waima Foundation has been able to carry out support work for companies, this is how we can point out how in Wow Jeans, for example, the embroidery of rags that were sewn on fabric was carried out, forming figures as decoration for jeans. This work allowed forty people with disabilities and some caregivers to carry out the same and thereby generate income for their support.', 
+      icon: 'pi pi-trophy', 
+      color: '#607D8B' 
+    },
+    { 
+      title: 'Goal', 
+      description: 'Waima seeks to base the realization of its mission on the theory of the hierarchy of human needs scale of Maslow (annex 1) and from there it focuses on supporting its members in achieving the satisfaction of their needs, starting with the basic ones according to this theory up to those of self-development.', 
+      icon: 'pi pi-check-circle', 
+      color: '#9DAD2A' 
+    }
+  ];
+
+  // Customize timeline markers with colors and icons
+  const customizedMarker = (item) => {
+    return (
+      <span className="flex w-2rem h-2rem align-items-center justify-content-center text-white border-circle shadow-1" 
+        style={{ backgroundColor: item.color, width: '2rem',height: '2rem', fontSize: '1.5rem', padding: '0.5rem', borderRadius: '50%', color: 'white'}}>
+        <i className={item.icon} style={{transform: "translate(0,-70%)"}}></i>
+      </span>
+    );
+  };
+
+  // Customize timeline content
+  const customizedContent = (item) => {
+    return (
+      <Card title={item.title} subTitle={item.date} style={{borderLeft: `5px solid ${item.color}` }} className='timeline-card'>
+        <p>{item.description}</p>
+      </Card>
+    );
+  };
+
   return (
     <section className="index-2">
       <div className="page-content-wrapper-primary">
-
-          <div className='sec1-wrapper-primary'>
-
-            <div className='sec1-column-wrap'>
-              <h1>1.</h1>
-              <h2>Connecting Students with Opportunities, One Job Posting at a Time.</h2>
-              <p>  
-                At SkillBridge, we believe in the power of connection. Our platform is designed to bridge the gap between eager students and prospective employers by providing a seamless job posting service tailored specifically for students. Whether you're an employer looking to find fresh talent or a student ready to kickstart your career, SkillBridge is your ultimate destination. Tailored to the unique needs of students and entry-level roles, we make job searching and recruitment as simple and effective as possible. Join SkillBridge and take the first step toward building a brighter future together.
+        <div className='sec1-wrapper-primary'>
+          <div className='sec1-column-wrap'>
+            <h1>1.</h1>
+            <h2>Who?</h2>
+            <p> 
+            The WAIMA Foundation is a non-profit entity, located in commune 3 of the District of Medellín Colombia, its purpose is to help people with disabilities, children and young people, in situations of economic or social vulnerability, to strengthen creative capacities, which favor their social and labor inclusion, thereby improving their living conditions, with educational and technical tools in arts and crafts as a means of change, so that they can contribute to the socioeconomic development of the region and the country.  
+            </p>
+          </div>
+          <div className='sec1-column2-wrap'>
+            <div className='card bg-grey'>
+              <h1>2.</h1>
+              <h2>What do we do?</h2>
+              <p className='pad-bottom-maxWidth768'> 
+              Without promoting welfare, we seek to mitigate the inequality gap in the most vulnerable populations and seek strategies that allow us to improve the quality of life of our beneficiaries, through different programs, life skills, educational tools and techniques in arts and crafts as a means of change. The above in favor of overcoming situations of vulnerability that contribute to peace, to the socioeconomic development of the region and the country, allowing the empowerment of its territories, as well as generating sustainable spaces for the strengthening of the social fabric.
               </p>
             </div>
+          </div>
+        </div>
 
-            <div className='sec1-column2-wrap'>
-              <div className='card bg-grey'>
-                <h1>2.</h1>
-                <h2>Exclusive Opportunities</h2>
-                <p className='pad-bottom-maxWidth768'>
-                  By targeting student job postings, SkillBridge offers unique opportunities that are often missed by broader job search platforms. Our specialized approach helps employers find talented students with fresh ideas, while students access exclusive job listings, internships, and entry-level positions suited to their skills and ambitions. SkillBridge simplifies the job search process, creating meaningful connections between employers and the next generation of professionals.
-                </p>
-              </div>
-              <div className='card bg-wheat'>
-                <h1>3.</h1>
-                <h2>Support and Resources</h2>
-                <p>  
-                  At SkillBridge, we support students with resources to enhance their job search. From resume-building tips and interview preparation to valuable career advice, we provide the guidance needed to confidently enter the workforce and achieve career goals.
-                </p>
-              </div>
+        {/* Partner Logos */}
+        <div className="bg-grey">
+          <div className='header-wrapper-primary'>
+            <div className='header-content'>
+              <img src={saciar} alt="Partner 1"/>
+              <img src={casa} alt="Partner 2"/>
+              <img src={lianza} alt="Partner 3"/>
+              <img src={logoa} alt="Partner 4"/>
+              <img src={logob} alt="Partner 5"/>
             </div>
           </div>
-          <div class="bg-grey">
-            <div class="sec2-content-wrapper">
-                <div className='dashStat-card-content bg-light-green'>
-                    <i className="pi pi-users stat-card-i"></i>
-                    <p><bold>+80,000</bold> <br /> Active Users</p>
-                </div>
-                <div className='dashStat-card-content bg-light-blue'>
-                    <i className="pi pi-briefcase stat-card-i"></i>
-                    <p><bold>+25,000</bold> <br /> Opportunities Posted</p>
-                </div>
-                <div className='dashStat-card-content bg-light-red'>
-                    <i className="pi pi-check stat-card-i"></i>
-                    <p><bold>+15,000</bold> <br /> Successful Matches</p>
-                </div>
-                <div className='dashStat-card-content bg-light-orange'>
-                    <i className="pi pi-pencil stat-card-i"></i>
-                    <p><bold>+22,500</bold> <br /> Application Submitted</p>
-                </div>
-            </div>
+        </div>
+
+        {/* Timeline */}
+        <div className='sec2-wrapper-primary'>
+          <div className='timeline-Container'>
+            <Timeline
+              value={events}
+              align="alternate"
+              className="customized-timeline"
+              marker={customizedMarker}
+              content={customizedContent}
+            />
           </div>
-          <div className='dashboard-chart-wrapper'>
-                <div className='chart-card-wrap w-100'>
-                    <img src={ChartActiveUser} alt="Chart of Active Users" />
-                </div>
-                <div className='chart-wrapper-secondary'>
-                    <div className='chart-content-grid'>
-                        <div className='chart-card-wrap2 w-100'>
-                            <div className='chart-text'>
-                                Opportunities:
-                                <br />
-                                <bolden>
-                                    +25,000
-                                </bolden>
-                            </div>
-                            <img className='DrawnLine' src={DrawnLine} alt="Chart of post" />
-                        </div>
-                        <div className='chart-card-wrap w-100'>
-                            <img src={PieIndustry} alt="Industry" />
-                        </div>
-                    </div>
-                    <div className='chart-CardSchool-wrap'>
-                        <div className='pad-30'>
-                            <p>SkillBridge <br /> is Used In</p>
-                        </div>
-                        <div className='pad-20'>
-                            <h1>+3K</h1>
-                        </div>
-                        <div className='pad-30'>
-                            <p>Schools <br /> NationWide</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
       </div>
     </section>
   );
