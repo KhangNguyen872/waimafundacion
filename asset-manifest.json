@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/KhangNguyen872/waimafundacion/static/css/main.6ee1c6df.css",
+    "main.js": "/KhangNguyen872/waimafundacion/static/js/main.f7bfe323.js",
+    "static/js/453.bb257cf5.chunk.js": "/KhangNguyen872/waimafundacion/static/js/453.bb257cf5.chunk.js",
+    "static/media/IMG_0130.jpg": "/KhangNguyen872/waimafundacion/static/media/IMG_0130.34a9781ccc01a3d63810.jpg",
+    "static/media/primeicons.svg": "/KhangNguyen872/waimafundacion/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/casa.png": "/KhangNguyen872/waimafundacion/static/media/casa.0a461bea020f027c89a8.png",
+    "static/media/saciar.png": "/KhangNguyen872/waimafundacion/static/media/saciar.5bd3f8e54ae64d3451d2.png",
+    "static/media/logoa.png": "/KhangNguyen872/waimafundacion/static/media/logoa.fd8804af4a5b31c82a4e.png",
+    "static/media/logob.png": "/KhangNguyen872/waimafundacion/static/media/logob.fb919321238ff2382c54.png",
+    "static/media/lianza.png": "/KhangNguyen872/waimafundacion/static/media/lianza.eeb0b2e5e27cc0e6eda9.png",
+    "static/media/primeicons.eot": "/KhangNguyen872/waimafundacion/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/KhangNguyen872/waimafundacion/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/KhangNguyen872/waimafundacion/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/DK Lemon Yellow Sun.otf": "/KhangNguyen872/waimafundacion/static/media/DK Lemon Yellow Sun.8d96352c53c42576242e.otf",
+    "static/media/tt0503m_.ttf": "/KhangNguyen872/waimafundacion/static/media/tt0503m_.f1eeafd5bec29050e144.ttf",
+    "static/media/primeicons.woff2": "/KhangNguyen872/waimafundacion/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "static/media/helvetica-neu.ttf": "/KhangNguyen872/waimafundacion/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/KhangNguyen872/waimafundacion/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/logo2.png": "/KhangNguyen872/waimafundacion/static/media/logo2.4def8027c44a92e9ce99.png",
+    "static/media/LaBelleAurore.woff2": "/KhangNguyen872/waimafundacion/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/poppins-v15-latin-ext_latin-600.woff": "/KhangNguyen872/waimafundacion/static/media/poppins-v15-latin-ext_latin-600.12e1140bb546e24bfb49.woff",
+    "static/media/poppins-v15-latin-ext_latin-regular.woff": "/KhangNguyen872/waimafundacion/static/media/poppins-v15-latin-ext_latin-regular.ac60ff327b209b58512c.woff",
+    "static/media/poppins-v15-latin-ext_latin-300.woff": "/KhangNguyen872/waimafundacion/static/media/poppins-v15-latin-ext_latin-300.60899c7185362bb15750.woff",
+    "static/media/poppins-v15-latin-ext_latin-700.woff": "/KhangNguyen872/waimafundacion/static/media/poppins-v15-latin-ext_latin-700.00e5337651210e9ec6c7.woff",
+    "static/media/CoolveticaRg-Regular.woff": "/KhangNguyen872/waimafundacion/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/poppins-v15-latin-ext_latin-600.woff2": "/KhangNguyen872/waimafundacion/static/media/poppins-v15-latin-ext_latin-600.27069d861fbec01deb28.woff2",
+    "static/media/poppins-v15-latin-ext_latin-regular.woff2": "/KhangNguyen872/waimafundacion/static/media/poppins-v15-latin-ext_latin-regular.314a6a775e933d47e60c.woff2",
+    "static/media/poppins-v15-latin-ext_latin-300.woff2": "/KhangNguyen872/waimafundacion/static/media/poppins-v15-latin-ext_latin-300.d3b32b9a7d568c00f7c0.woff2",
+    "static/media/poppins-v15-latin-ext_latin-700.woff2": "/KhangNguyen872/waimafundacion/static/media/poppins-v15-latin-ext_latin-700.5e2dfda5fae3c158fe30.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/KhangNguyen872/waimafundacion/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/KhangNguyen872/waimafundacion/index.html",
+    "main.6ee1c6df.css.map": "/KhangNguyen872/waimafundacion/static/css/main.6ee1c6df.css.map",
+    "main.f7bfe323.js.map": "/KhangNguyen872/waimafundacion/static/js/main.f7bfe323.js.map",
+    "453.bb257cf5.chunk.js.map": "/KhangNguyen872/waimafundacion/static/js/453.bb257cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ee1c6df.css",
+    "static/js/main.f7bfe323.js"
+  ]
+}
