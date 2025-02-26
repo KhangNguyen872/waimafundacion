@@ -5,6 +5,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import React, { createContext } from 'react';
 import Home from "./components/Home";
+import ContactDashBoard from "./components/ContactDashBoard";
 import './App.scss';
 
 /**
@@ -31,6 +32,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+            <Route path="/about" element={<ContactDashBoard />} />
+
           </Route>
         </Routes>
       </Router>

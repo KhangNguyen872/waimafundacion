@@ -17,7 +17,7 @@ export default function MenubarLanding() {
         {
             label: 'About',
             icon: 'pi pi-fw pi-info-circle',
-            command: () => navigate('/')
+            command: () => navigate('/about')
         },
         {
             label: 'Programs',
