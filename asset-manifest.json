@@ -1,9 +1,17 @@
 {
   "files": {
-    "main.css": "/waimafundacion/static/css/main.c483d3e9.css",
-    "main.js": "/waimafundacion/static/js/main.2e0bf596.js",
+    "main.css": "/waimafundacion/static/css/main.70798401.css",
+    "main.js": "/waimafundacion/static/js/main.0123222f.js",
     "static/js/453.bb257cf5.chunk.js": "/waimafundacion/static/js/453.bb257cf5.chunk.js",
+    "static/media/DSC_0013.jpg": "/waimafundacion/static/media/DSC_0013.5db80b9668eb2c6f3522.jpg",
+    "static/media/DSC_0018.jpg": "/waimafundacion/static/media/DSC_0018.9ff9378dc2af92f82cca.jpg",
+    "static/media/DSC_0079.jpg": "/waimafundacion/static/media/DSC_0079.f63cd3ff4ba92c2d80aa.jpg",
+    "static/media/DSC_0010.jpg": "/waimafundacion/static/media/DSC_0010.d201faf285920856e905.jpg",
+    "static/media/DSC_0103.jpg": "/waimafundacion/static/media/DSC_0103.1bc0854a45f0fe5476c1.jpg",
+    "static/media/IMG_0106.jpg": "/waimafundacion/static/media/IMG_0106.d386c4aea78efd3d2062.jpg",
     "static/media/IMG_0130.jpg": "/waimafundacion/static/media/IMG_0130.34a9781ccc01a3d63810.jpg",
+    "static/media/IMG_0052.jpg": "/waimafundacion/static/media/IMG_0052.8f556aa0c0e460561cd4.jpg",
+    "static/media/IMG_0101.jpg": "/waimafundacion/static/media/IMG_0101.2c62a8b59ca623c0d067.jpg",
     "static/media/primeicons.svg": "/waimafundacion/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/casa.png": "/waimafundacion/static/media/casa.0a461bea020f027c89a8.png",
     "static/media/saciar.png": "/waimafundacion/static/media/saciar.5bd3f8e54ae64d3451d2.png",
@@ -16,6 +24,7 @@
     "static/media/DK Lemon Yellow Sun.otf": "/waimafundacion/static/media/DK Lemon Yellow Sun.8d96352c53c42576242e.otf",
     "static/media/tt0503m_.ttf": "/waimafundacion/static/media/tt0503m_.f1eeafd5bec29050e144.ttf",
     "static/media/primeicons.woff2": "/waimafundacion/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "static/media/logo3.png": "/waimafundacion/static/media/logo3.cf28651c9482eed116ce.png",
     "static/media/helvetica-neu.ttf": "/waimafundacion/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff": "/waimafundacion/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
     "static/media/logo2.png": "/waimafundacion/static/media/logo2.4def8027c44a92e9ce99.png",
@@ -31,12 +40,12 @@
     "static/media/poppins-v15-latin-ext_latin-700.woff2": "/waimafundacion/static/media/poppins-v15-latin-ext_latin-700.5e2dfda5fae3c158fe30.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/waimafundacion/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/waimafundacion/index.html",
-    "main.c483d3e9.css.map": "/waimafundacion/static/css/main.c483d3e9.css.map",
-    "main.2e0bf596.js.map": "/waimafundacion/static/js/main.2e0bf596.js.map",
+    "main.70798401.css.map": "/waimafundacion/static/css/main.70798401.css.map",
+    "main.0123222f.js.map": "/waimafundacion/static/js/main.0123222f.js.map",
     "453.bb257cf5.chunk.js.map": "/waimafundacion/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c483d3e9.css",
-    "static/js/main.2e0bf596.js"
+    "static/css/main.70798401.css",
+    "static/js/main.0123222f.js"
   ]
 }
