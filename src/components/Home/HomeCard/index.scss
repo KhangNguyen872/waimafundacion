@@ -76,18 +76,24 @@
             height: 100%;
             min-height: 60vh;
             padding: 5%;
-            background-color: rgb(213, 213, 213);
+            background-color: #9DAD2A;
             border-radius: 25px;
             min-height: 28vh;
 
             h2 {
                 font-family: "BT Book", sans-serif;
                 font-size: 3.7vh;
+                color: white;
             }
 
             p {
                 font-family: "BT Book", sans-serif;
                 font-size: 2.9vh;
+                color: white;
+            }
+
+            h1 {
+                color: white;
             }
         }
 
@@ -108,16 +114,21 @@
                 h2 {
                     font-family: "BT Book", sans-serif;
                     font-size: 3.7vh;
+                    color: white;
                 }
                 p {
                     font-family: "BT Book", sans-serif;
                     font-size: 2.9vh;
+                    color: white;
+                }
+                h1 {
+                    color: white;
                 }
             }
 
             // Grey background for card
             .bg-grey {
-                background-color: rgb(163, 163, 163);
+                background-color: #8c458a;
             }
 
             // Wheat background for card
@@ -204,7 +215,7 @@
         width: 100%;
         height: auto;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         column-gap: 5%;
         padding: 2% 5%;
 
@@ -221,7 +232,7 @@
     margin-top: 10vh;
     display: flex;
     // grid-template-columns: 1fr 1fr;
-
+    margin-bottom: 10vh;
 }
 
 .timeline-card {

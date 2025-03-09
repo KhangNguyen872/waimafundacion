@@ -49,9 +49,8 @@ export default function Footer() {
                     <h1 className='center-txt-768'>{language === "es" ? "Redes Sociales" : "Socials"}</h1>
                     <div className='footer-interactive-wrapper'>
                         <Link className='footer-contact-interactive' target='_blank' to="https://www.instagram.com"><i className="pi pi-instagram" style={{ fontSize: '2.3rem' }}></i></Link>
-                        <Link className='footer-contact-interactive' target='_blank' to="https://www.linkedin.com"><i className="pi pi-linkedin" style={{ fontSize: '2.3rem' }}></i></Link>
+                        <Link className='footer-contact-interactive' target='_blank' to="https://www.youtube.com"><i className="pi pi-youtube" style={{ fontSize: '2.3rem' }}></i></Link>
                         <Link className='footer-contact-interactive' target='_blank' to="https://www.facebook.com"><i className="pi pi-facebook" style={{ fontSize: '2.3rem' }}></i></Link>
-                        <Link className='footer-contact-interactive' target='_blank' to="https://twitter.com"><i className="pi pi-twitter" style={{ fontSize: '2.3rem' }}></i></Link>
                     </div>
                 </div>  
                 <Divider className='span-4 marginTop-2rem' />

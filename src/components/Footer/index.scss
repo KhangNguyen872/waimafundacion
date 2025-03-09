@@ -2,8 +2,8 @@
 .footer-wrapper-primary {
     width: 100%;
     height: auto;
-    background-color: #3F4581;
-    margin-top: 10vh;
+    background-color: #8c458a;
+
     .footer-content-wrap {
         width: 100%;
         height: auto;
@@ -12,6 +12,7 @@
         row-gap: 5%;
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        
         div {
             h1 {
                 color: white;
@@ -52,13 +53,13 @@
 
         .footer-interactive-wrapper{
             display: grid;
-            grid-template-columns: repeat(4,1fr);
-            column-gap: 5%;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 3%;
         }
 
         .footer-contact-interactive {
-            width: 3.8rem;
-            height: 3.8rem;
+            width: 4rem;
+            height: 4rem;
             border-radius: 50%;
             background-color: white;
             display: flex; 
@@ -67,7 +68,7 @@
             text-decoration: none;
         
             i {
-                font-size: 2.8rem;
+                font-size: 3rem;
                 color: #001f3f;
             }
         }

@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
  * component. The layout is styled to provide a visually engaging user experience.
  */
 const Home = () => {
-  const colors = ["#3F4581", "#D9991E", "#9DAD2A", "#3F4581", "#D9991E"];
+  const colors = ["#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E"];
   const letters = "WAIMA".split("");
 
   // Get language from localStorage, default to English

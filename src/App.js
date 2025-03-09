@@ -6,8 +6,8 @@ import Layout from './components/Layout';
 import React, { createContext } from 'react';
 import Home from "./components/Home";
 import ContactDashBoard from "./components/ContactDashBoard";
+import Program from "./components/Program";
 import './App.scss';
-
 /**
  * Main application component.
  * 
@@ -32,8 +32,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="/about" element={<ContactDashBoard />} />
-
+            <Route path="/about/*" element={<ContactDashBoard />} />
+            <Route path="/program" element={<Program />} />
           </Route>
         </Routes>
       </Router>

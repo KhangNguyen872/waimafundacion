@@ -14,9 +14,11 @@ export default function SideBarComponent() {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
     const items = [
-        { icon: 'pi pi-envelope', command: () => navigate('/about') },
-        { icon: 'pi pi-info', command: () => navigate('/contactdashboard/DashBoardFAQ') }
+        { icon: 'pi pi-info', command: () => navigate('/about') },
+        { icon: 'pi pi-flag-fill', command: () => navigate('/about/objective') },  // ✅ Correct
+        { icon: 'pi pi-envelope', command: () => navigate('/about/DashBoardFAQ') }
     ];
+    
 
     useEffect(() => {
         const handleResize = () => setIsMobile(window.innerWidth < 768);

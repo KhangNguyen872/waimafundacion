@@ -40,7 +40,7 @@ const CardSection = () => {
         ? "La Fundación Waima fue establecida legalmente en mayo de 2016 por Claudia Pareja Osorio, Guillermo León Morales Múnera, Luz Omaira Hernández Sampedro y Oliva Ligia Delgado Moreno. Los fundadores, que han experimentado directamente la realidad de la discapacidad y la enfermedad crónica, decidieron crear Waima con el propósito de ayudar a las personas que, como ellos, enfrentan una condición diferente y con ello los obstáculos sociales existentes."
         : "The Waima Foundation was legally established in May 2016 by Claudia Pareja Osorio, Guillermo León Morales Múnera, Luz Omaira Hernández Sampedro and Oliva Ligia Delgado Moreno. The founders, who have directly experienced the reality of disability and chronic illness, decided to create Waima with the purpose of helping people who, like them, face a different condition and with it the existing social obstacles.",
       icon: 'pi pi-history', 
-      color: '#3F4581' 
+      color: '#8c458a' 
     },
     { 
       title: language === "es" ? 'Ambiciones' : 'Ambitions', 
@@ -129,7 +129,6 @@ const CardSection = () => {
               <img src={saciar} alt="Partner 1"/>
               <img src={casa} alt="Partner 2"/>
               <img src={lianza} alt="Partner 3"/>
-              <img src={logoa} alt="Partner 4"/>
               <img src={logob} alt="Partner 5"/>
             </div>
           </div>

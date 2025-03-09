@@ -5,6 +5,7 @@ import { FaAward, FaMedal, FaTrophy, FaStar } from "react-icons/fa"; // Importin
 import { Divider } from 'primereact/divider';
 import { Card } from "primereact/card";
 import { useEffect, useState } from 'react';
+import { Accordion, AccordionTab } from 'primereact/accordion';
 
 /**
  * DashBoardContact Component
@@ -49,14 +50,20 @@ export default function DashBoardContact() {
         },
     ];
 
-      const colors = ["#3F4581", "#D9991E", "#9DAD2A", "#3F4581", "#D9991E","#767EB5","#3F4581"];
+      const colors = ["#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E","#767EB5","#8c458a"];
       const letters = "WAIMA".split("");
-      const missionColors = ["#3F4581", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E","#767EB5","#3F4581"];
+      const missionColors = ["#8c458a", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E","#767EB5","#8c458a"];
       const missionLetters = "Mission".split("");
-      const visionColors = ["#3F4581", "#D9991E", "#9DAD2A", "#D9991E", "#767EB5","#3F4581"];
+      const visionColors = ["#8c458a", "#D9991E", "#9DAD2A", "#D9991E", "#767EB5","#8c458a"];
       const visionLetters = "Vision".split("");
-
     
+      const valuesColors = [
+        "#8c458a", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E", "#767EB5", "#8c458a",  
+        "#8c458a", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E", "#767EB5", "#8c458a",  
+        "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E", "#767EB5", "#8c458a", "#D9991E", "#8c458a", "#767EB5"
+      ];      
+      const valuesLetter = (language === "es" ? "VALORES INSTITUCIONALES" : "INSTITUTIONAL VALUES").split("");
+
       const specialAward = {
         title: language === "es" 
             ? "PREMIO Héroes como Vos 2018, secretaria de cultura – Alcaldía de Medellín" 
@@ -168,6 +175,47 @@ export default function DashBoardContact() {
                             <span style={{color:"white"}}>{specialAward.title}</span>
                         </Card>
                     </div>
+                </div>
+                <br />
+                <Divider className="span-2"/>
+                <div className='accordion-about-wrapper'>
+                    <div className='center value-header-containter'>
+                        <h1>
+                            {valuesLetter.map((letter, index) => (
+                                <span key={index} style={{ color: valuesColors[index] }}>
+                                    {letter}
+                                </span>
+                            ))}
+                        </h1>
+                        <p>{language == "es" ? "Los valores institucionales fueron definidos por los usuarios, y el equipo de trabajo de la fundación." : "The institutional values ​​were defined by the users and the foundation's work team."}</p>
+                    </div>
+                    <Accordion activeIndex={0}>
+                        <AccordionTab header={language == "es" ? "Respeto" : "Respect"}>
+                            <p className="m-0">
+                                {language == "es" ? "Es tener aprecio y reconocimiento por los otros, por la diferencia y la aceptación de la diversidad de capacidades." : "It is to have appreciation and recognition for others, for difference and acceptance of the diversity of abilities."}
+                            </p>
+                        </AccordionTab>
+                        <AccordionTab header={language == "es" ? "Alegría" : "Happiness"}>
+                            <p className="m-0">
+                                {language == "es" ? "sentimiento de placer que se manifiesta con un buen estado de ánimo. " : "feeling of pleasure that is manifested with a good mood."}
+                            </p>
+                        </AccordionTab>
+                        <AccordionTab header={language == "es" ? "Tolerancia" : "Tolerance"}>
+                            <p className="m-0">
+                                {language == "es" ? "respeto a las diferencias y adaptabilidad." : "respect for differences and adaptability."}
+                            </p>
+                        </AccordionTab>
+                        <AccordionTab header={language == "es" ? "Responsabilidad" : "Responsibility"}>
+                            <p className="m-0">
+                                {language == "es" ? " cumplimiento con las obligaciones." : "compliance with obligations."}
+                            </p>
+                        </AccordionTab>
+                        <AccordionTab header={language == "es" ? "Amor" : "Love"}>
+                            <p className="m-0">
+                                {language == "es" ? "afecto intenso por la vida y todo ser. " : "intense affection for life and every being."}
+                            </p>
+                        </AccordionTab>
+                    </Accordion>
                 </div>
             </div>
         </div>

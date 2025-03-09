@@ -38,7 +38,7 @@ export default function MenubarLanding() {
     {
       label: language === "es" ? "Programas" : "Programs",
       icon: "pi pi-fw pi-book",
-      command: () => navigate("/"),
+      command: () => navigate("/program"),
     },
     {
       label: language === "es" ? "Informes DIAN" : "Reports DIAN",
