@@ -15,8 +15,7 @@ export default function SideBarComponent() {
 
     const items = [
         { icon: 'pi pi-info', command: () => navigate('/about') },
-        { icon: 'pi pi-flag-fill', command: () => navigate('/about/objective') },  // ✅ Correct
-        { icon: 'pi pi-envelope', command: () => navigate('/about/DashBoardFAQ') }
+        { icon: 'pi pi-flag-fill', command: () => navigate('/about/objective') }
     ];
     
 
