@@ -41,7 +41,7 @@
         column-gap: 5%;
     
         div {
-            img {
+            .img {
                 width: 60%;
                 border-radius: 50%;
                 margin-bottom: 20px;
@@ -63,7 +63,7 @@
 
     
             p {
-                font-size: 1.9rem;
+                font-size: 1.5rem;
                 margin: 0;
                 line-height: 1.5;
                 color: #333;
@@ -95,7 +95,7 @@
         }
         
         .tag {
-            font-size: 1.8rem;
+            font-size: 1.7rem;
             font-weight: 500;
             background-color: #f0f0f0;
             color: white;
@@ -160,6 +160,25 @@
     }
 }
 
+.tree-img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .tree-img-contact {
+        width: 80%;
+        height: 80%;
+        border-radius: 10px;
+    }
+}
+
+.about-img {
+    width: 80%;
+    height: auto;
+    border-radius: 25px;
+}
+
+
 .span-2 {
     grid-column: span 2;
 }
@@ -195,7 +214,7 @@
     }
 
     p {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }
 
@@ -235,4 +254,19 @@
     .contact-skills {
         transform: translate(0%) !important;
     }
+
+    .grid-2 {
+        grid-template-columns: 1fr !important;
+    }
+
+    .about-img {
+        margin-top: 5rem;
+        width: 60%;
+    }
+}
+
+.about-img-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

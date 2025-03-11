@@ -54,7 +54,7 @@ export default function MenubarLanding() {
     {
       label: language === "es" ? "Contacto" : "Contact",
       icon: "pi pi-fw pi-envelope",
-      command: () => navigate("/"),
+      command: () => navigate("/contact"),
     },
     {
       label: language === "es" ? "Idioma" : "Language",

@@ -30,16 +30,28 @@ export default function Program() {
             return () => window.removeEventListener("languageChange", handleLanguageChange);
         }, []);
 
+        const valuesColors = [
+            "#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#767EB5", "#8c458a",  
+            "#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#767EB5", "#8c458a",  
+            "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#767EB5", "#8c458a", "#D9991E", "#8c458a", "#767EB5"
+            ];    
+        
+        const colorizeText = (text) => {
+            return text.split('').map((char, index) => (
+                <span key={index} style={{ color: valuesColors[index % valuesColors.length] }}>{char}</span>
+            ));
+        };
+
     return (
         <div>
             <MenubarLanding />
             <div className="program-container-primary">
                 <div className="program-container-secondary">
                     <div className="program-title span-2">
-                        <h2>{language == "es" ? "Programas" : "Programs"}</h2>
+                        <h2>{colorizeText(language == "es" ? "Programas" : "Programs")}</h2>
                     </div>
                     <div>
-                        <h1>{language == "en" ? "Learning without barriers" : "Aprendiendo sin barreras"}</h1>
+                        <h1>{colorizeText(language == "en" ? "Learning without barriers" : "Aprendiendo sin barreras")}</h1>
                         <p>{language == "en" ? "Promotion of activities consisting of craft workshops, motivational talks and various training sessions, which seek to develop their creative and productive capacities, oriented towards a projection of social and/or productive entrepreneurship and the social inclusion of the participants." : "Promoción de actividades compuestas por talleres artesanales, charlas motivacionales y diversas capacitaciones, que buscan el desarrollo de sus capacidades creativas y productivas, orientadas a una proyección de emprendimiento social y/o productivo y la inclusión social de los participantes."}</p>
                     </div>
                     <div>
@@ -50,13 +62,13 @@ export default function Program() {
                         <img src={DSC_0010}></img>
                     </div>
                     <div>
-                        <h1>{language == "en" ? "Health & Wellness" : "Salud & Bienestar"}</h1>
+                        <h1>{colorizeText(language == "en" ? "Health & Wellness" : "Salud & Bienestar")}</h1>
                         <p>  {language == "en" ? "Waima seeks to provide recreational spaces, integration activities, promotion and prevention in physical and mental health to improve the quality of life of beneficiaries." : "Waima busca propiciar espacios recreativos, actividades de integración, promoción y prevención en salud física y mental para el mejoramiento de la calidad de vida de los beneficiarios. "}
                         </p>
                     </div>
                     <Divider className="span-2" />
                     <div>
-                        <h1>{language == "en" ? "Bread and Love" : "Pan y Amor"}</h1>
+                        <h1>{colorizeText(language == "en" ? "Bread and Love" : "Pan y Amor")}</h1>
                         <p> {language == "en" ? "We aim to contribute to the nutrition of our beneficiaries by providing food packages and lunch to children who attend extracurricular classes." : "Se busca aportar a la nutrición de nuestros beneficiarios con la entrega de paquetes alimentarios y entrega de almuerzo a los niños que asisten a las clases extracurriculares. "}
                         </p>
                     </div>
@@ -64,14 +76,14 @@ export default function Program() {
                         <img src={DSC_0079}></img>
                     </div>
                     <div>
-                    <h1>{language == "en" ? "Bringing happiness to the countryside" : "Llevando felicidad al campo"}</h1>
+                    <h1>{colorizeText(language == "en" ? "Bringing happiness to the countryside" : "Llevando felicidad al campo")}</h1>
                         <p>
                         {language == "en" ? "The aim is to carry out activities that improve the quality of life of rural children and youth through specific activities such as Christmas celebrations, distribution of school lists, Halloween, and country cinema, among others." : "Se busca llevar actividades que mejoren la calidad de vida de niños, niñas y jóvenes campesinos a través de actividades puntuales como la celebración de la navidad, entrega de listas escolares, halloween, y cine al campo entre otros."}
                         </p>
                     </div>
                     <div>
                         <h1>
-                            {language == "en" ? "Keep it up" : "Avanza"}
+                            {colorizeText(language == "en" ? "Keep it up" : "Avanza")}
                         </h1>
                         <p>
                         {language == "en" ? "To improve the financial autonomy of the Waima Foundation and its beneficiaries by establishing agreements and opportunities that allow for the provision of services, the generation of resources and the collection of donations." : "Mejorar la autonomía financiera de la Fundación Waima y la de sus beneficiarios, a partir de la consecución de convenios y oportunidades que permitan la prestación de servicios, la generación recursos y la captación de donaciones."}

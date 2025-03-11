@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import ContactDashBoard from "./components/ContactDashBoard";
 import Program from "./components/Program";
 import './App.scss';
+import Contact from "./components/Contact";
 /**
  * Main application component.
  * 
@@ -34,6 +35,7 @@ const App = () => {
             <Route index element={<Home />} />
             <Route path="/about/*" element={<ContactDashBoard />} />
             <Route path="/program" element={<Program />} />
+            <Route path="/contact" element={<Contact />} />
           </Route>
         </Routes>
       </Router>

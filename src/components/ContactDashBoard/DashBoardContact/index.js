@@ -6,6 +6,8 @@ import { Divider } from 'primereact/divider';
 import { Card } from "primereact/card";
 import { useEffect, useState } from 'react';
 import { Accordion, AccordionTab } from 'primereact/accordion';
+import tree from '../../../assets/img/foundation-tree.png';
+import IMG_20240824_145012 from '../../../assets/img/IMG_20240824_145012.jpg';
 
 /**
  * DashBoardContact Component
@@ -74,7 +76,7 @@ export default function DashBoardContact() {
         <div className="DashBoard-ContactWrapper-Primary">
             <div className="contact-introHeader-wrap">
                 <div>
-                    <img src={logo} />
+                    <img  className="img" src={logo} />
                 </div>
                 <Divider className="span-2" />
                 <div className="span-2">
@@ -95,21 +97,27 @@ export default function DashBoardContact() {
             <div className="contact-AboutCard-wrapper">
                 <div className="contact-CardText-wrap">
                     <h1>{language === "es" ? "Sobre Nosotros" : "About Us"}</h1>
-                    <p>
-                        {language === "es" 
-                            ? "La Fundación WAIMA es una organización sin ánimo de lucro ubicada en Medellín, Colombia, dedicada al desarrollo humano de personas con discapacidad, enfermedades crónicas, víctimas del conflicto y cuidadores, con el propósito de mejorar su calidad de vida a través del emprendimiento, la productividad y proyectos de vida."
-                            : "The WAIMA Foundation is a non-profit organization located in Medellin, Colombia, dedicated to seeking the human development of people with disabilities, chronic illnesses, victims of conflict, and caregivers, with the purpose of improving their quality of life through entrepreneurship, productivity, and life projects."
-                        }
-                        <br /><br />
-                        {language === "es" 
-                            ? "El trabajo de waima inicia en el año 2013 buscando diversas alternativas de empleo para esta población; en dichos inicios el trabajo se traslada a las casas de estas personas, con el fin de brindarles las facilidades de movilidad, para que de esta manera, lograran desempeñar las labores de manualidades propuestas por la fundación."
-                            : "WAIMA's work began in 2013 looking for various employment alternatives for this population; in those beginnings, the work was transferred to the homes of these people, in order to provide them with mobility facilities, so that in this way, they could carry out the craft work proposed by the foundation."
-                        }
-                        <br /><br />
-                        {language === "es"
-                        ?    "A partir de la experiencia de vida de ambos, y de afrontar una enfermedad y la discapacidad deciden crear esta fundación que busca ayudar a personas que como ellos se enfrenta a una condición diferente, a través de diversas actividades como capacitación proyecto de vida, en artes manuales y emprendimiento. Oficialmente, la fundación fue constituida legalmente en mayo de 2016 por Claudia Lorena Pareja Osorio quien tiene una enfermedad crónica y Guillermo León Morales Múnera, con discapacidad física."
-                        : "Based on the life experience of both, and facing an illness and disability, they decided to create this foundation that seeks to help people who, like them, face a different condition, through various activities such as life project training, in manual arts and entrepreneurship. Officially, the foundation was legally established in May 2016 by Claudia Lorena Pareja Osorio, who has a chronic illness, and Guillermo León Morales Múnera, who has a physical disability."}                
-                    </p>
+                    <div className='grid-2'>
+                        <p>
+                            {language === "es"
+                                ? "La Fundación WAIMA es una organización sin ánimo de lucro ubicada en Medellín, Colombia, dedicada al desarrollo humano de personas con discapacidad, enfermedades crónicas, víctimas del conflicto y cuidadores, con el propósito de mejorar su calidad de vida a través del emprendimiento, la productividad y proyectos de vida."
+                                : "The WAIMA Foundation is a non-profit organization located in Medellin, Colombia, dedicated to seeking the human development of people with disabilities, chronic illnesses, victims of conflict, and caregivers, with the purpose of improving their quality of life through entrepreneurship, productivity, and life projects."
+                            }
+                            <br /><br />
+                            {language === "es"
+                                ? "El trabajo de waima inicia en el año 2013 buscando diversas alternativas de empleo para esta población; en dichos inicios el trabajo se traslada a las casas de estas personas, con el fin de brindarles las facilidades de movilidad, para que de esta manera, lograran desempeñar las labores de manualidades propuestas por la fundación."
+                                : "WAIMA's work began in 2013 looking for various employment alternatives for this population; in those beginnings, the work was transferred to the homes of these people, in order to provide them with mobility facilities, so that in this way, they could carry out the craft work proposed by the foundation."
+                            }
+                            <br /><br />
+                            {language === "es"
+                            ?    "A partir de la experiencia de vida de ambos, y de afrontar una enfermedad y la discapacidad deciden crear esta fundación que busca ayudar a personas que como ellos se enfrenta a una condición diferente, a través de diversas actividades como capacitación proyecto de vida, en artes manuales y emprendimiento. Oficialmente, la fundación fue constituida legalmente en mayo de 2016 por Claudia Lorena Pareja Osorio quien tiene una enfermedad crónica y Guillermo León Morales Múnera, con discapacidad física."
+                            : "Based on the life experience of both, and facing an illness and disability, they decided to create this foundation that seeks to help people who, like them, face a different condition, through various activities such as life project training, in manual arts and entrepreneurship. Officially, the foundation was legally established in May 2016 by Claudia Lorena Pareja Osorio, who has a chronic illness, and Guillermo León Morales Múnera, who has a physical disability."}
+                        </p>
+
+                        <div className='about-img-wrap'>
+                            <img className='about-img' src={IMG_20240824_145012} />
+                        </div>
+                    </div>
                 </div>
                 
                 <div className="contact-skills span-2">
@@ -216,6 +224,10 @@ export default function DashBoardContact() {
                             </p>
                         </AccordionTab>
                     </Accordion>
+                </div>
+                <Divider className="span-2"/>
+                <div className='tree-img-wrap'>
+                    <img className='tree-img-contact' src={tree}/>
                 </div>
             </div>
         </div>
