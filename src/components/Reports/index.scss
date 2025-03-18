@@ -1,0 +1,39 @@
+.reports-container-primary {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background-color: #f4f2ee;
+
+    .reports-container-secondary {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding: 8%;
+        border-radius: 25px;
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .reports-content-grid {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            width: 100%;
+            height: auto;
+            column-gap: 5%;
+            row-gap: 5%;
+
+            .reports-btn {
+                background-color: #D9991E;
+                border: 5px solid #D9991E;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .reports-content-grid {
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+}
