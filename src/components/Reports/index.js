@@ -1,33 +1,69 @@
 import './index.scss'
 import MenubarLanding from '../MenubarLanding'
 import { Button } from 'primereact/button'; 
-import { useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
-export default function Reports () {
-    const navigate = useNavigate();
+const pdfFiles = require.context('../../assets/reportsPDF', true, /\.pdf$/); // 'true' enables recursive search
 
-    const testVar = [
-        "report 1", "report 2", "report 3", "report 4", "report 5"
-    ]
+const Reports = () => {
+    const pdfMap = {};
 
+    const location = useLocation();
+    const year = location.state?.year;
+
+    const valuesColors = [
+        "#8c458a", // Purple
+        "#D9991E", // Orange
+        "#9DAD2A", // Green
+        "#767EB5", // Blue
+        "#E94B3C", // Red
+        "#FFD700", // Gold
+        "#40E0D0", // Turquoise
+        "#FF69B4", // Pink
+        "#8B4513"  // Brown
+    ];
+    
+    // Create a map of folders (2017-2021) to their PDF files
+    pdfFiles.keys().forEach((filePath) => {
+        const fullPath = filePath.replace('./', ''); // Remove './'
+        const [yearFolder, fileName] = fullPath.split('/'); // Get folder (year) and filename
+
+        if (!pdfMap[yearFolder]) pdfMap[yearFolder] = []; // Create an array if it doesn't exist
+        pdfMap[yearFolder].push({
+            name: fileName.replace('.pdf', ''), // Save the file name without extension
+            url: pdfFiles(filePath)
+        });
+    });
+
+    // Get the selected year's reports
+    const selectedReports = pdfMap[year] || [];
+
+    console.log(selectedReports);
 
     return (
         <main>
             <MenubarLanding />
             <div className='reports-container-primary'>
                 <div className='reports-container-secondary'>
-                    <h1>Reports</h1>
+                    <h1>Reports for {year}</h1>
+
+                    {/* Display PDFs for the selected year */}
                     <div className='reports-content-grid'>
-                        {testVar.map((report, index) => {
-                            return (
-                                <Button className='reports-btn' key={index} onClick={() => navigate(`/your-path/${report}`)}>
-                                    <h2>{report}</h2>
-                                </Button>
-                            )
-                        })}
+                        {selectedReports.map((report, index) => (
+                            <Button 
+                                className='reports-btn' 
+                                key={index} 
+                                style={{ backgroundColor: valuesColors[index % valuesColors.length] }}
+                                onClick={() => window.open(report.url, '_blank')}
+                            >
+                                <h2>{report.name}</h2>
+                            </Button>
+                        ))}
                     </div>
                 </div>
             </div>
         </main>
     )
 }
+
+export default Reports;

@@ -26,8 +26,27 @@
 
             .reports-btn {
                 background-color: #D9991E;
-                border: 5px solid #D9991E;
+                border: 2px solid  black;
             }
+        }
+    }
+}
+
+.year-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1rem;
+
+    Button {
+        width: 15%;
+        padding-top: 10px;
+        padding-left: 6%;
+        margin-bottom: 5rem;
+
+        h1 {
+            text-align: center !important;
+            font-size: 1.2rem !important;
         }
     }
 }
