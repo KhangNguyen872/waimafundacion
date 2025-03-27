@@ -47,9 +47,9 @@ export default function DashBoardObjective() {
 
 
     const valuesColors = [
-    "#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#767EB5", "#8c458a",  
-    "#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#767EB5", "#8c458a",  
-    "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#767EB5", "#8c458a", "#D9991E", "#8c458a", "#767EB5"
+    "#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#c3b8d8", "#8c458a",  
+    "#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#c3b8d8", "#8c458a",  
+    "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#c3b8d8", "#8c458a", "#D9991E", "#8c458a", "#c3b8d8"
     ];    
 
     const colorizeText = (text) => {

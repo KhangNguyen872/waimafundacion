@@ -31,9 +31,9 @@ export default function Program() {
         }, []);
 
         const valuesColors = [
-            "#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#767EB5", "#8c458a",  
-            "#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#767EB5", "#8c458a",  
-            "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#767EB5", "#8c458a", "#D9991E", "#8c458a", "#767EB5"
+            "#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#c3b8d8", "#8c458a",  
+            "#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#c3b8d8", "#8c458a",  
+            "#D9991E", "#9DAD2A", "#8c458a", "#D9991E", "#c3b8d8", "#8c458a", "#D9991E", "#8c458a", "#c3b8d8"
             ];    
         
         const colorizeText = (text) => {
@@ -90,7 +90,7 @@ export default function Program() {
                         </p>
                     </div>
                     <div className="span-2">
-                        <Button label={language =="es" ? "Ves Mas" : "See More"} icon="pi pi-external-link" onClick={() => setVisible(true)} className="program-button" />
+                        <Button label={language =="es" ? "Ver Mas" : "See More"} icon="pi pi-external-link" onClick={() => setVisible(true)} className="program-button" />
                         <Dialog header="Learn about us" visible={visible} style={{ width: '80vw' }} onHide={() => {if (!visible) return; setVisible(false); }}>
                             <div className="dialog-box-container">
                                 {images.map((image, index) => {

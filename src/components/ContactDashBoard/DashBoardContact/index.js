@@ -52,17 +52,17 @@ export default function DashBoardContact() {
         },
     ];
 
-      const colors = ["#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E","#767EB5","#8c458a"];
+      const colors = ["#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E","#c3b8d8","#8c458a"];
       const letters = "WAIMA".split("");
-      const missionColors = ["#8c458a", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E","#767EB5","#8c458a"];
+      const missionColors = ["#8c458a", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E","#c3b8d8","#8c458a"];
       const missionLetters = "Mission".split("");
-      const visionColors = ["#8c458a", "#D9991E", "#9DAD2A", "#D9991E", "#767EB5","#8c458a"];
+      const visionColors = ["#8c458a", "#D9991E", "#9DAD2A", "#D9991E", "#c3b8d8","#8c458a"];
       const visionLetters = "Vision".split("");
     
       const valuesColors = [
-        "#8c458a", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E", "#767EB5", "#8c458a",  
-        "#8c458a", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E", "#767EB5", "#8c458a",  
-        "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E", "#767EB5", "#8c458a", "#D9991E", "#8c458a", "#767EB5"
+        "#8c458a", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E", "#c3b8d8", "#8c458a",  
+        "#8c458a", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E", "#c3b8d8", "#8c458a",  
+        "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E", "#c3b8d8", "#8c458a", "#D9991E", "#8c458a", "#c3b8d8"
       ];      
       const valuesLetter = (language === "es" ? "VALORES INSTITUCIONALES" : "INSTITUTIONAL VALUES").split("");
 
@@ -178,7 +178,7 @@ export default function DashBoardContact() {
                         </Card>
                         ))}
                         <div></div>
-                        <Card className='span-2' style={{backgroundColor: "#767EB5"}}>
+                        <Card className='span-2' style={{backgroundColor: "#c3b8d8"}}>
                             <span style={{marginRight:"5px", color:"white"}}>{specialAward.icon}</span>
                             <span style={{color:"white"}}>{specialAward.title}</span>
                         </Card>

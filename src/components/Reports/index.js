@@ -15,7 +15,7 @@ const Reports = () => {
         "#8c458a", // Purple
         "#D9991E", // Orange
         "#9DAD2A", // Green
-        "#767EB5", // Blue
+        "#c3b8d8", // Blue
         "#E94B3C", // Red
         "#FFD700", // Gold
         "#40E0D0", // Turquoise
