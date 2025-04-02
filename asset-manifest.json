@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/waimafundacion/static/css/main.fc6440fa.css",
-    "main.js": "/waimafundacion/static/js/main.ae3bd7f4.js",
+    "main.js": "/waimafundacion/static/js/main.e721e6d5.js",
     "static/js/453.9415623e.chunk.js": "/waimafundacion/static/js/453.9415623e.chunk.js",
     "static/media/ESTATUTOS-ORIGINALES-WAIMA.pdf": "/waimafundacion/static/media/ESTATUTOS-ORIGINALES-WAIMA.294a88fd63641ed1cdcf.pdf",
     "static/media/ESTATUTOS_13.pdf": "/waimafundacion/static/media/ESTATUTOS_13.294a88fd63641ed1cdcf.pdf",
@@ -76,11 +76,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/waimafundacion/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/waimafundacion/index.html",
     "main.fc6440fa.css.map": "/waimafundacion/static/css/main.fc6440fa.css.map",
-    "main.ae3bd7f4.js.map": "/waimafundacion/static/js/main.ae3bd7f4.js.map",
+    "main.e721e6d5.js.map": "/waimafundacion/static/js/main.e721e6d5.js.map",
     "453.9415623e.chunk.js.map": "/waimafundacion/static/js/453.9415623e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc6440fa.css",
-    "static/js/main.ae3bd7f4.js"
+    "static/js/main.e721e6d5.js"
   ]
 }
