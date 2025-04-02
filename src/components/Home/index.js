@@ -37,6 +37,9 @@ const Home = () => {
             <div className="home-content-grid-wrapper">
               <div className="text-box-wrapper">
                 <h1>
+                  {language === "es"
+                    ? "FUNDACIÓN"
+                    : "Foundation"}
                   <span
                     className="text-shadow-white"
                     style={{ marginRight: "20px" }}
@@ -47,9 +50,6 @@ const Home = () => {
                       </span>
                     ))}
                   </span>
-                  {language === "es"
-                    ? "Fundacion"
-                    : "Foundation"}
                 </h1>
 
                 <p>

@@ -55,9 +55,9 @@ export default function DashBoardContact() {
       const colors = ["#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E","#c3b8d8","#8c458a"];
       const letters = "WAIMA".split("");
       const missionColors = ["#8c458a", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E","#c3b8d8","#8c458a"];
-      const missionLetters = "Mission".split("");
+      const missionLetters = (language === "es"? "MISIÓN " : "Mission").split("");
       const visionColors = ["#8c458a", "#D9991E", "#9DAD2A", "#D9991E", "#c3b8d8","#8c458a"];
-      const visionLetters = "Vision".split("");
+      const visionLetters = (language ==="es" ? "VISIÓN" : "Vision").split("");
     
       const valuesColors = [
         "#8c458a", "#D9991E", "#9DAD2A", "#9DAD2A", "#D9991E", "#c3b8d8", "#8c458a",  
