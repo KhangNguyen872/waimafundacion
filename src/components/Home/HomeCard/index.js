@@ -13,7 +13,7 @@ import { Button } from 'primereact/button'
 import founder from '../../../assets/img/DSC_0101.jpg'
 import amb from '../../../assets/img/IMG-20240714-WA0006.jpg'
 import ACHIEVEMENTS from '../../../assets/img/IMG_20240824_152742.jpg'
-import goal from '../../../assets/img/_DSC0097.jpg'
+import Goal from '../../../assets/img/_DSC0097.jpg'
 
 const CardSection = () => {
   const [language, setLanguage] = useState(localStorage.getItem('lang') || 'en')
@@ -77,7 +77,7 @@ const CardSection = () => {
           : 'Waima seeks to base the realization of its mission on the theory of the hierarchy of human needs scale of Maslow and from there it focuses on supporting its members in achieving the satisfaction of their needs, starting with the basic ones according to this theory up to those of self-development.',
       icon: 'pi pi-check-circle',
       color: '#9DAD2A',
-      image: goal,
+      image: Goal,
     },
   ]
 
@@ -176,12 +176,10 @@ const CardSection = () => {
           </div>
         </div>
 
-        {/* Partner Logos */}
         <div className="bg-grey">
           <div className="header-wrapper-primary">
             <div className="header-content">
               <img src={saciar} alt="Partner 1" />
-              {/* <img src={casa} alt="Partner 2"/> */}
               <img src={lianza} alt="Partner 3" />
               <img src={logoa} alt="Partner 4" />
               <img src={logob} alt="Partner 5" />
@@ -189,7 +187,6 @@ const CardSection = () => {
           </div>
         </div>
 
-        {/* Timeline */}
         <div className="sec2-wrapper-primary">
           <div
             className={`timeline-Container ${
