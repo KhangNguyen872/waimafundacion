@@ -4,17 +4,10 @@ import HomeCard from "./HomeCard";
 import MenuBarLanding from "../MenubarLanding";
 import { Link } from "react-router-dom";
 
-/**
- * The `Home` component represents the landing page of the application. It 
- * includes a navigation menu, a hero section with promotional content and 
- * call-to-action buttons for signing up and signing in, and a `HomeCard` 
- * component. The layout is styled to provide a visually engaging user experience.
- */
 const Home = () => {
   const colors = ["#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E"];
   const letters = "WAIMA".split("");
 
-  // Get language from localStorage, default to English
   const [language, setLanguage] = useState(localStorage.getItem("lang") || "en");
 
   useEffect(() => {

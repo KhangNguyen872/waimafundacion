@@ -3,7 +3,7 @@ import MenubarLanding from '../MenubarLanding'
 import { Button } from 'primereact/button'; 
 import { useLocation } from 'react-router-dom';
 
-const pdfFiles = require.context('../../assets/reportsPDF', true, /\.pdf$/); // 'true' enables recursive search
+const pdfFiles = require.context('../../assets/reportsPDF', true, /\.pdf$/); 
 
 const Reports = () => {
     const pdfMap = {};
@@ -23,19 +23,17 @@ const Reports = () => {
         "#8B4513"  // Brown
     ];
     
-    // Create a map of folders (2017-2021) to their PDF files
     pdfFiles.keys().forEach((filePath) => {
-        const fullPath = filePath.replace('./', ''); // Remove './'
-        const [yearFolder, fileName] = fullPath.split('/'); // Get folder (year) and filename
+        const fullPath = filePath.replace('./', ''); 
+        const [yearFolder, fileName] = fullPath.split('/');
 
-        if (!pdfMap[yearFolder]) pdfMap[yearFolder] = []; // Create an array if it doesn't exist
+        if (!pdfMap[yearFolder]) pdfMap[yearFolder] = []; 
         pdfMap[yearFolder].push({
-            name: fileName.replace('.pdf', ''), // Save the file name without extension
+            name: fileName.replace('.pdf', ''), 
             url: pdfFiles(filePath)
         });
     });
 
-    // Get the selected year's reports
     const selectedReports = pdfMap[year] || [];
 
     console.log(selectedReports);
@@ -47,7 +45,6 @@ const Reports = () => {
                 <div className='reports-container-secondary'>
                     <h1>Reports for {year}</h1>
 
-                    {/* Display PDFs for the selected year */}
                     <div className='reports-content-grid'>
                         {selectedReports.map((report, index) => (
                             <Button 

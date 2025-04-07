@@ -23,7 +23,6 @@ export default function MenubarLanding() {
     window.dispatchEvent(new Event("languageChange"));
   };
 
-  // Define menu items with dynamic translations
   const items = [
     {
       label: language === "es" ? "Inicio" : "Home",

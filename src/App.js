@@ -11,21 +11,6 @@ import './App.scss';
 import Contact from "./components/Contact";
 import Reports from "./components/Reports";
 
-/**
- * Main application component.
- * 
- * This file sets up the React app's routing and context management.
- * 
- * Key Features:
- * - ThemeContext: A simple context to manage theme state across the app (default value: "light").
- * - HashRouter: Enables routing using hash-based URLs, suitable for environments without server-side routing support.
- * - Routes: Configures the app's navigation structure.
- * 
- * Dependencies:
- * - PrimeReact: Used for UI components and themes.
- * - React Router: Provides client-side routing.
- */
-
 export const ThemeContext = createContext('light');
 
 const App = () => {
