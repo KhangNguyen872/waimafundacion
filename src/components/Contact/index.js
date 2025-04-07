@@ -10,6 +10,7 @@ export default function Contact() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const [title, setTitle] = useState('') // New state for the email title
   const [language, setLanguage] = useState(localStorage.getItem('lang') || 'en')
 
   useEffect(() => {
@@ -60,30 +61,33 @@ export default function Contact() {
     ))
   }
 
+  
   const sendEmail = (e) => {
     e.preventDefault()
 
-    if (!name || !email || !message) {
+    if (!name || !email || !title || !message) {
       alert('Please fill in all fields.')
       return
     }
 
     emailjs
       .send(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_p9n87d8', // Replace with your EmailJS service ID
+        'template_6x53qri', // Replace with your EmailJS template ID
         {
           name: name,
           email: email,
+          title: title, // Include the title in the email template
           message: message,
         },
-        'YOUR_USER_ID' // Replace with your EmailJS user ID
+        '5-rupsDGDMeVK71OR' // Replace with your EmailJS user ID
       )
       .then(
         (result) => {
           alert('Message sent successfully!')
           setName('')
           setEmail('')
+          setTitle('') // Clear the title field
           setMessage('')
         },
         (error) => {
@@ -127,6 +131,14 @@ export default function Contact() {
                 className="contact-input"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+              />
+            </div>
+            <div>
+              <h1>{language === 'es' ? 'Título' : 'Title'}</h1> {/* New Title Field */}
+              <InputText
+                className="contact-input"
+                value={title}
+                onChange={(e) => setTitle(e.target.value)}
               />
             </div>
             <div>

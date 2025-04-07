@@ -60,13 +60,13 @@ const Home = () => {
 
                 <div className="button-switch">
                   <h2 className="hover-state-1">
-                    <Link className="link-txt" to="/">
+                    <Link className="link-txt" to="/about">
                       {language === "es" ? "Aprende Más" : "Learn More"}
                     </Link>
                   </h2>
                   <h3 className="hover-state-2">
-                    <Link className="link-txt" to="/">
-                      {language === "es" ? "Apóyanos" : "Support Us"}
+                    <Link className="link-txt" to="/contact">
+                      {language === "es" ? "Contáctenos" : "Contact Us"}
                     </Link>
                     <div className="switch-block"></div>
                   </h3>

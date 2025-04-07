@@ -242,12 +242,34 @@
     font-size: 1.7vw;
 }
 
-.timeline-Container::before {
-    content: "WAIMA HISTORY";
-    font-size: 8vw;
-    position: absolute;
-    transform: translate(15%,50%);
+.timeline-Container {
+    position: relative;
+  
+    &.spanish::before {
+      content: "NUESTRA HISTORIA";
+      font-size: 8vw;
+      position: absolute;
+      transform: translate(8%, 50%);
+    }
+  
+    &.english::before {
+      content: "WAIMA HISTORY";
+      font-size: 8vw;
+      position: absolute;
+      transform: translate(15%, 50%);
+    }
+
 }
+
+.timeline-card p {
+    // font-size: 16px;
+  
+    @media screen and (max-width: 768px) {
+      font-size:3.7vw; 
+      font-weight: 300px;
+    }
+  }
+  
 
 @media (max-width:1320px) {
 

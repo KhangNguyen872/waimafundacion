@@ -10,6 +10,7 @@ import Program from "./components/Program";
 import './App.scss';
 import Contact from "./components/Contact";
 import Reports from "./components/Reports";
+
 /**
  * Main application component.
  * 
@@ -30,7 +31,7 @@ export const ThemeContext = createContext('light');
 const App = () => {
   return (
     <ThemeContext.Provider value="dark">
-      <Router>  {/* Now using HashRouter */}
+      <Router> 
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />

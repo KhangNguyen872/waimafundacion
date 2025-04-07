@@ -1,0 +1,59 @@
+Date : 2025-04-07 12:32:10
+Directory : c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion
+Total : 17 files,  695 codes, -4 comments, 86 blanks, all 777 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |          9 |        403 |         -5 |         38 |        436 |
+| SCSS       |          5 |        206 |          1 |         42 |        249 |
+| HTML       |          1 |         99 |          0 |          6 |        105 |
+| JSON       |          2 |        -13 |          0 |          0 |        -13 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                                                  | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                                                     |         17 |        695 |         -4 |         86 |        777 |
+| . (Files)                                                                                                                                                             |          3 |         86 |          0 |          6 |         92 |
+| src                                                                                                                                                                   |         14 |        609 |         -4 |         80 |        685 |
+| src (Files)                                                                                                                                                           |          1 |          4 |          0 |          0 |          4 |
+| src\components                                                                                                                                                        |         13 |        605 |         -4 |         80 |        681 |
+| src\components\Contact                                                                                                                                                |          2 |        201 |          0 |         24 |        225 |
+| src\components\ContactDashBoard                                                                                                                                       |          6 |        278 |         -6 |         33 |        305 |
+| src\components\ContactDashBoard (Files)                                                                                                                               |          1 |         -2 |         -7 |          0 |         -9 |
+| src\components\ContactDashBoard\DashBoardContact                                                                                                                      |          2 |        141 |          1 |         20 |        162 |
+| src\components\ContactDashBoard\DashBoardObjective                                                                                                                    |          2 |        139 |          0 |         12 |        151 |
+| src\components\ContactDashBoard\sideBarComp                                                                                                                           |          1 |          0 |          0 |          1 |          1 |
+| src\components\Footer                                                                                                                                                 |          1 |         -1 |          0 |          0 |         -1 |
+| src\components\Home                                                                                                                                                   |          1 |         10 |          0 |          1 |         11 |
+| src\components\Home\HomeCard                                                                                                                                          |          1 |         10 |          0 |          1 |         11 |
+| src\components\Program                                                                                                                                                |          1 |         11 |          0 |          2 |         13 |
+| src\components\Reports                                                                                                                                                |          2 |        106 |          2 |         20 |        128 |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                                                              | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\emailTemplate.html                                            | HTML       |         99 |          0 |          6 |        105 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\package-lock.json                                             | JSON       |        -14 |          0 |          0 |        -14 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\package.json                                                  | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\App.js                                                    | JavaScript |          4 |          0 |          0 |          4 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardContact\index.js     | JavaScript |         59 |          0 |          1 |         60 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardContact\index.scss   | SCSS       |         82 |          1 |         19 |        102 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardObjective\index.js   | JavaScript |        133 |          0 |         12 |        145 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\DashBoardObjective\index.scss | SCSS       |          6 |          0 |          0 |          6 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\index.js                      | JavaScript |         -2 |         -7 |          0 |         -9 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\ContactDashBoard\sideBarComp\index.js          | JavaScript |          0 |          0 |          1 |          1 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Contact\index.js                               | JavaScript |        143 |          0 |         10 |        153 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Contact\index.scss                             | SCSS       |         58 |          0 |         14 |         72 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Footer\index.js                                | JavaScript |         -1 |          0 |          0 |         -1 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Home\HomeCard\index.scss                       | SCSS       |         10 |          0 |          1 |         11 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Program\index.js                               | JavaScript |         11 |          0 |          2 |         13 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Reports\index.js                               | JavaScript |         56 |          2 |         12 |         70 |
+| c:\Users\khang\Desktop\SchooolFiles\extracurricular\2024-2025\United Planet\Primed\Waima\waimaFundacion\src\components\Reports\index.scss                             | SCSS       |         50 |          0 |          8 |         58 |
+| Total                                                                                                                                                                 |            |        695 |         -4 |         86 |        777 |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
