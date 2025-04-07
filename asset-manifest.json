@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/waimafundacion/static/css/main.fc6440fa.css",
-    "main.js": "/waimafundacion/static/js/main.e721e6d5.js",
+    "main.css": "/waimafundacion/static/css/main.56595fc3.css",
+    "main.js": "/waimafundacion/static/js/main.c72a9169.js",
     "static/js/453.9415623e.chunk.js": "/waimafundacion/static/js/453.9415623e.chunk.js",
     "static/media/ESTATUTOS-ORIGINALES-WAIMA.pdf": "/waimafundacion/static/media/ESTATUTOS-ORIGINALES-WAIMA.294a88fd63641ed1cdcf.pdf",
     "static/media/ESTATUTOS_13.pdf": "/waimafundacion/static/media/ESTATUTOS_13.294a88fd63641ed1cdcf.pdf",
@@ -9,10 +9,13 @@
     "static/media/_DSC0130.jpg": "/waimafundacion/static/media/_DSC0130.67e7c1ac6c0397833a2b.jpg",
     "static/media/DSC_0018.jpg": "/waimafundacion/static/media/DSC_0018.9ff9378dc2af92f82cca.jpg",
     "static/media/DSC_0079.jpg": "/waimafundacion/static/media/DSC_0079.f63cd3ff4ba92c2d80aa.jpg",
+    "static/media/_DSC0097.jpg": "/waimafundacion/static/media/_DSC0097.037d3daecda0f1b2ca65.jpg",
     "static/media/ACTA-DE-CONSTITUCION-Y-ESTATUTOS-WAIMA.pdf": "/waimafundacion/static/media/ACTA-DE-CONSTITUCION-Y-ESTATUTOS-WAIMA.29fb0aec8711b40de7d4.pdf",
     "static/media/Acta de Constitución y Estatutos Waima.pdf": "/waimafundacion/static/media/Acta de Constitución y Estatutos Waima.29fb0aec8711b40de7d4.pdf",
     "static/media/Acta_Asamblea_General .pdf": "/waimafundacion/static/media/Acta_Asamblea_General .5167665620ac2a81f596.pdf",
+    "static/media/DSC_0101.jpg": "/waimafundacion/static/media/DSC_0101.30ed6bb65f763d8b34c7.jpg",
     "static/media/DSC_0010.jpg": "/waimafundacion/static/media/DSC_0010.d201faf285920856e905.jpg",
+    "static/media/IMG_20240824_152742.jpg": "/waimafundacion/static/media/IMG_20240824_152742.2e1470e9fc19290f49a6.jpg",
     "static/media/Cámara-de-comercio.pdf": "/waimafundacion/static/media/Cámara-de-comercio.9367beab8bed745f7fc6.pdf",
     "static/media/DSC_0103.jpg": "/waimafundacion/static/media/DSC_0103.1bc0854a45f0fe5476c1.jpg",
     "static/media/IMG_0106.jpg": "/waimafundacion/static/media/IMG_0106.d386c4aea78efd3d2062.jpg",
@@ -45,6 +48,7 @@
     "static/media/CERTIFICADO-CAMARA-DE-COMERCIO-WAIMA-AGOSTO-2020.pdf": "/waimafundacion/static/media/CERTIFICADO-CAMARA-DE-COMERCIO-WAIMA-AGOSTO-2020.a0b6a723b37c8a41e13c.pdf",
     "static/media/Certificado de Existencia y Representación Legal.pdf": "/waimafundacion/static/media/Certificado de Existencia y Representación Legal.85f994c3f30483cb59bd.pdf",
     "static/media/saciar.png": "/waimafundacion/static/media/saciar.5bd3f8e54ae64d3451d2.png",
+    "static/media/IMG-20240714-WA0006.jpg": "/waimafundacion/static/media/IMG-20240714-WA0006.12f888049f43b5b9b01a.jpg",
     "static/media/CERTIFICACION-DE-ANTECEDENTES-JUDICIALES-FUNDACION-WAIMA.pdf": "/waimafundacion/static/media/CERTIFICACION-DE-ANTECEDENTES-JUDICIALES-FUNDACION-WAIMA.0c911b81825da4255799.pdf",
     "static/media/logoa.png": "/waimafundacion/static/media/logoa.fd8804af4a5b31c82a4e.png",
     "static/media/logob.png": "/waimafundacion/static/media/logob.fb919321238ff2382c54.png",
@@ -75,12 +79,12 @@
     "static/media/poppins-v15-latin-ext_latin-700.woff2": "/waimafundacion/static/media/poppins-v15-latin-ext_latin-700.5e2dfda5fae3c158fe30.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/waimafundacion/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/waimafundacion/index.html",
-    "main.fc6440fa.css.map": "/waimafundacion/static/css/main.fc6440fa.css.map",
-    "main.e721e6d5.js.map": "/waimafundacion/static/js/main.e721e6d5.js.map",
+    "main.56595fc3.css.map": "/waimafundacion/static/css/main.56595fc3.css.map",
+    "main.c72a9169.js.map": "/waimafundacion/static/js/main.c72a9169.js.map",
     "453.9415623e.chunk.js.map": "/waimafundacion/static/js/453.9415623e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc6440fa.css",
-    "static/js/main.e721e6d5.js"
+    "static/css/main.56595fc3.css",
+    "static/js/main.c72a9169.js"
   ]
 }
