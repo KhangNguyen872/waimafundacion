@@ -4,13 +4,13 @@ import { InputText } from 'primereact/inputtext'
 import { Button } from 'primereact/button'
 import { InputTextarea } from 'primereact/inputtextarea'
 import MenubarLanding from '../MenubarLanding'
-import emailjs from 'emailjs-com' // Import EmailJS
+import emailjs from 'emailjs-com' 
 
 export default function Contact() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
-  const [title, setTitle] = useState('') // New state for the email title
+  const [title, setTitle] = useState('') 
   const [language, setLanguage] = useState(localStorage.getItem('lang') || 'en')
 
   useEffect(() => {
@@ -72,22 +72,22 @@ export default function Contact() {
 
     emailjs
       .send(
-        'service_p9n87d8', // Replace with your EmailJS service ID
-        'template_6x53qri', // Replace with your EmailJS template ID
+        'SERVICE_ID',
+        'TEMPLATE_ID', 
         {
           name: name,
           email: email,
-          title: title, // Include the title in the email template
+          title: title, 
           message: message,
         },
-        '5-rupsDGDMeVK71OR' // Replace with your EmailJS user ID
+        'USER_ID'
       )
       .then(
         (result) => {
           alert('Message sent successfully!')
           setName('')
           setEmail('')
-          setTitle('') // Clear the title field
+          setTitle('') 
           setMessage('')
         },
         (error) => {
@@ -134,7 +134,7 @@ export default function Contact() {
               />
             </div>
             <div>
-              <h1>{language === 'es' ? 'Título' : 'Title'}</h1> {/* New Title Field */}
+              <h1>{language === 'es' ? 'Título' : 'Title'}</h1> 
               <InputText
                 className="contact-input"
                 value={title}
