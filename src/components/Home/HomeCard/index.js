@@ -13,7 +13,7 @@ import { Button } from 'primereact/button'
 import founder from '../../../assets/img/DSC_0101.jpg'
 import amb from '../../../assets/img/IMG-20240714-WA0006.jpg'
 import ACHIEVEMENTS from '../../../assets/img/IMG_20240824_152742.jpg'
-import Goal from '../../../assets/img/_DSC0097.jpg'
+import Goal from '../../../assets/img/IMG_20240824_145012.jpg'
 
 const CardSection = () => {
   const [language, setLanguage] = useState(localStorage.getItem('lang') || 'en')
