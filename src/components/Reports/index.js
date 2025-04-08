@@ -43,7 +43,7 @@ const Reports = () => {
             <MenubarLanding />
             <div className='reports-container-primary'>
                 <div className='reports-container-secondary'>
-                    <h1>Reports for {year}</h1>
+                    <h1>INFORMES {year}</h1>
 
                     <div className='reports-content-grid'>
                         {selectedReports.map((report, index) => (
