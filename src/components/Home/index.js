@@ -1,25 +1,25 @@
-import React, { useEffect, useState } from "react";
-import "./index.scss";
-import HomeCard from "./HomeCard";
-import MenuBarLanding from "../MenubarLanding";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from 'react'
+import './index.scss'
+import HomeCard from './HomeCard'
+import MenuBarLanding from '../MenubarLanding'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
-  const colors = ["#8c458a", "#D9991E", "#9DAD2A", "#8c458a", "#D9991E"];
-  const letters = "WAIMA".split("");
+  const colors = ['#8c458a', '#D9991E', '#9DAD2A', '#8c458a', '#D9991E']
+  const letters = 'WAIMA'.split('')
 
-  const [language, setLanguage] = useState(localStorage.getItem("lang") || "en");
+  const [language, setLanguage] = useState(localStorage.getItem('lang') || 'en')
 
   useEffect(() => {
-        const handleLanguageChange = () => {
-            setLanguage(localStorage.getItem("lang") || "en");
-        };
+    const handleLanguageChange = () => {
+      setLanguage(localStorage.getItem('lang') || 'en')
+    }
 
-        window.addEventListener("languageChange", handleLanguageChange);
+    window.addEventListener('languageChange', handleLanguageChange)
 
-        return () => window.removeEventListener("languageChange", handleLanguageChange);
-    }, []);
-
+    return () =>
+      window.removeEventListener('languageChange', handleLanguageChange)
+  }, [])
 
   return (
     <div className="size-window">
@@ -30,12 +30,11 @@ const Home = () => {
             <div className="home-content-grid-wrapper">
               <div className="text-box-wrapper">
                 <h1>
-                  {language === "es"
-                    ? "FUNDACIÓN"
-                    : "Foundation"}
+                  {language === 'es' ? 'FUNDACIÓN ' : 'Foundation '}
+
                   <span
                     className="text-shadow-white"
-                    style={{ marginRight: "20px" }}
+                    style={{ marginRight: '20px' }}
                   >
                     {letters.map((letter, index) => (
                       <span key={index} style={{ color: colors[index] }}>
@@ -46,20 +45,20 @@ const Home = () => {
                 </h1>
 
                 <p>
-                  {language === "es"
-                    ? "Empoderando comunidades, transformando vidas."
-                    : "Empowering Communities, Transforming Lives."}
+                  {language === 'es'
+                    ? 'Empoderando comunidades, transformando vidas.'
+                    : 'Empowering Communities, Transforming Lives.'}
                 </p>
 
                 <div className="button-switch">
                   <h2 className="hover-state-1">
                     <Link className="link-txt" to="/about">
-                      {language === "es" ? "Aprende Más" : "Learn More"}
+                      {language === 'es' ? 'Aprende Más' : 'Learn More'}
                     </Link>
                   </h2>
                   <h3 className="hover-state-2">
                     <Link className="link-txt" to="/contact">
-                      {language === "es" ? "Contáctenos" : "Contact Us"}
+                      {language === 'es' ? 'Contáctenos' : 'Contact Us'}
                     </Link>
                     <div className="switch-block"></div>
                   </h3>
@@ -72,7 +71,7 @@ const Home = () => {
 
       <HomeCard />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
