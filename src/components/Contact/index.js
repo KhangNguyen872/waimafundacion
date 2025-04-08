@@ -72,15 +72,15 @@ export default function Contact() {
 
     emailjs
       .send(
-        'SERVICE_ID',
-        'TEMPLATE_ID', 
+        'service_mvy3ek5',
+        'template_9a1xy57', 
         {
           name: name,
           email: email,
           title: title, 
           message: message,
         },
-        'USER_ID'
+        '6J7MxzNKHbOQIUu5r'
       )
       .then(
         (result) => {
