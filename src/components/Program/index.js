@@ -10,7 +10,7 @@ import IMG_0052 from "../../assets/img/IMG_0052.jpg"
 import IMG_0101 from "../../assets/img/IMG_0101.jpg"
 import DSC_0013 from "../../assets/img/DSC_0013.jpg"
 import DSC_0018 from "../../assets/img/DSC_0018.jpg"
-import _DSC0130 from "../../assets/img/_DSC0130.jpg"
+import _DSC0130 from "../../assets/img/DSC0130.jpg"
 import { Dialog  } from 'primereact/dialog';
 import { Button } from 'primereact/button'; 
 
