@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/waimafundacion/static/css/main.b882797c.css",
-    "main.js": "/waimafundacion/static/js/main.80a0abce.js",
+    "main.js": "/waimafundacion/static/js/main.2f2a54c9.js",
     "static/js/453.9415623e.chunk.js": "/waimafundacion/static/js/453.9415623e.chunk.js",
     "static/media/ESTATUTOS ORIGINALES WAIMA.pdf": "/waimafundacion/static/media/ESTATUTOS ORIGINALES WAIMA.aae6b9968cbeb9139fe9.pdf",
     "static/media/ESTATUTOS.pdf": "/waimafundacion/static/media/ESTATUTOS.294a88fd63641ed1cdcf.pdf",
@@ -9,7 +9,6 @@
     "static/media/_DSC0130.jpg": "/waimafundacion/static/media/_DSC0130.67e7c1ac6c0397833a2b.jpg",
     "static/media/DSC_0018.jpg": "/waimafundacion/static/media/DSC_0018.9ff9378dc2af92f82cca.jpg",
     "static/media/DSC_0079.jpg": "/waimafundacion/static/media/DSC_0079.f63cd3ff4ba92c2d80aa.jpg",
-    "static/media/_DSC0097.jpg": "/waimafundacion/static/media/_DSC0097.037d3daecda0f1b2ca65.jpg",
     "static/media/ACTA DE CONSTITUCION Y ESTATUTOS.pdf": "/waimafundacion/static/media/ACTA DE CONSTITUCION Y ESTATUTOS.29fb0aec8711b40de7d4.pdf",
     "static/media/Acta de Constitución y Estatutos Waima.pdf": "/waimafundacion/static/media/Acta de Constitución y Estatutos Waima.29fb0aec8711b40de7d4.pdf",
     "static/media/Acta Asamblea General.pdf": "/waimafundacion/static/media/Acta Asamblea General.5167665620ac2a81f596.pdf",
@@ -21,13 +20,13 @@
     "static/media/IMG_0106.jpg": "/waimafundacion/static/media/IMG_0106.d386c4aea78efd3d2062.jpg",
     "static/media/INFORME DE GESTIÓN 2020.pdf": "/waimafundacion/static/media/INFORME DE GESTIÓN 2020.8c66fa0745e072c14c77.pdf",
     "static/media/ACTAS.pdf": "/waimafundacion/static/media/ACTAS.e6fc27a2bd77865475ba.pdf",
-    "static/media/IMG_20240824_145012.jpg": "/waimafundacion/static/media/IMG_20240824_145012.5327697bd3471260da07.jpg",
     "static/media/IMG_0130.jpg": "/waimafundacion/static/media/IMG_0130.34a9781ccc01a3d63810.jpg",
     "static/media/IMG_0052.jpg": "/waimafundacion/static/media/IMG_0052.8f556aa0c0e460561cd4.jpg",
     "static/media/IMG_0101.jpg": "/waimafundacion/static/media/IMG_0101.2c62a8b59ca623c0d067.jpg",
     "static/media/Acta N°8-003 Asamblea General.pdf": "/waimafundacion/static/media/Acta N°8-003 Asamblea General.32640d5a285b23861101.pdf",
     "static/media/ESTADOS FINANCIEROS ANO 2021.pdf": "/waimafundacion/static/media/ESTADOS FINANCIEROS ANO 2021.1c9c500c6f10477559b6.pdf",
     "static/media/Antecedentes Disciplinarios de los Asociados.pdf": "/waimafundacion/static/media/Antecedentes Disciplinarios de los Asociados.90003fe38b6980fa6c93.pdf",
+    "static/media/IMG_20240824_145012.jpg": "/waimafundacion/static/media/IMG_20240824_145012.e16f5ee898d765a6969c.jpg",
     "static/media/Estados Financieros 2020.pdf": "/waimafundacion/static/media/Estados Financieros 2020.ce0d09c969998f9a8e17.pdf",
     "static/media/ESTADOS FINANCIEROS 2019.pdf": "/waimafundacion/static/media/ESTADOS FINANCIEROS 2019.35179c6e9debf9d551c9.pdf",
     "static/media/Informe de Gestión Waima 2017.pdf": "/waimafundacion/static/media/Informe de Gestión Waima 2017.9fc8573b57a5211d895b.pdf",
@@ -78,11 +77,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/waimafundacion/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/waimafundacion/index.html",
     "main.b882797c.css.map": "/waimafundacion/static/css/main.b882797c.css.map",
-    "main.80a0abce.js.map": "/waimafundacion/static/js/main.80a0abce.js.map",
+    "main.2f2a54c9.js.map": "/waimafundacion/static/js/main.2f2a54c9.js.map",
     "453.9415623e.chunk.js.map": "/waimafundacion/static/js/453.9415623e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b882797c.css",
-    "static/js/main.80a0abce.js"
+    "static/js/main.2f2a54c9.js"
   ]
 }
