@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/waimafundacion/static/css/main.b882797c.css",
-    "main.js": "/waimafundacion/static/js/main.1af1c657.js",
+    "main.js": "/waimafundacion/static/js/main.e456fe95.js",
     "static/js/453.9415623e.chunk.js": "/waimafundacion/static/js/453.9415623e.chunk.js",
     "static/media/ESTATUTOS ORIGINALES WAIMA.pdf": "/waimafundacion/static/media/ESTATUTOS ORIGINALES WAIMA.aae6b9968cbeb9139fe9.pdf",
     "static/media/ESTATUTOS.pdf": "/waimafundacion/static/media/ESTATUTOS.294a88fd63641ed1cdcf.pdf",
     "static/media/DSC_0013.jpg": "/waimafundacion/static/media/DSC_0013.5db80b9668eb2c6f3522.jpg",
-    "static/media/_DSC0130.jpg": "/waimafundacion/static/media/_DSC0130.67e7c1ac6c0397833a2b.jpg",
+    "static/media/DSC0130.jpg": "/waimafundacion/static/media/DSC0130.67e7c1ac6c0397833a2b.jpg",
     "static/media/DSC_0018.jpg": "/waimafundacion/static/media/DSC_0018.9ff9378dc2af92f82cca.jpg",
     "static/media/DSC_0079.jpg": "/waimafundacion/static/media/DSC_0079.f63cd3ff4ba92c2d80aa.jpg",
     "static/media/ACTA DE CONSTITUCION Y ESTATUTOS.pdf": "/waimafundacion/static/media/ACTA DE CONSTITUCION Y ESTATUTOS.29fb0aec8711b40de7d4.pdf",
@@ -77,11 +77,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/waimafundacion/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/waimafundacion/index.html",
     "main.b882797c.css.map": "/waimafundacion/static/css/main.b882797c.css.map",
-    "main.1af1c657.js.map": "/waimafundacion/static/js/main.1af1c657.js.map",
+    "main.e456fe95.js.map": "/waimafundacion/static/js/main.e456fe95.js.map",
     "453.9415623e.chunk.js.map": "/waimafundacion/static/js/453.9415623e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b882797c.css",
-    "static/js/main.1af1c657.js"
+    "static/js/main.e456fe95.js"
   ]
 }
