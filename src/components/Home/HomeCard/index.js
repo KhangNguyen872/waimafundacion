@@ -106,17 +106,18 @@ const CardSection = () => {
     const overlayStyle = {
       position: 'absolute',
       top: '50%',
-      width: '70%', 
-      height: 'auto',
+      width: '100%', 
+      height: '100%',
+      overFlow: 'hidden',
       zIndex: 2,
       transform: 'translate(0, -50%)', 
     };
 
     if (isEven) {
-      overlayStyle.right = '170%';
+      overlayStyle.right = '144%';
       overlayStyle.marginRight = '-35%';
     } else {
-      overlayStyle.left = '150%';
+      overlayStyle.left = '144%';
       overlayStyle.marginLeft = '-35%';
     }
   
@@ -136,8 +137,8 @@ const CardSection = () => {
               src={item.image}
               alt="Timeline overlay"
               style={{
-                width: '120%',
-                height: 'auto',
+                width: '100%',
+                height: '100%',
                 objectFit: 'cover',
                 boxShadow: '0px 4px 8px rgba(0,0,0,0.3)',
                 borderRadius: '10px',
