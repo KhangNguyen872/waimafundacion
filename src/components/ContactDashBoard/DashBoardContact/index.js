@@ -9,13 +9,7 @@ import { Accordion, AccordionTab } from 'primereact/accordion';
 import tree from '../../../assets/img/foundation-tree.png';
 import IMG_20240824_145012 from '../../../assets/img/IMG_20240824_145012.jpg';
 
-/**
- * DashBoardContact Component
- * 
- * This component displays the SkillBridge team members, their roles, 
- * skills, and contact details. It includes portraits, descriptions, 
- * and tags representing technical expertise.
- */
+
 export default function DashBoardContact() {
     const [language, setLanguage] = useState(localStorage.getItem("lang") || "en");
 
