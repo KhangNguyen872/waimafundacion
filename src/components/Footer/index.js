@@ -32,17 +32,17 @@ export default function Footer() {
           <div className="foot-link-wrapper">
             <h1>{language === 'es' ? 'Enlaces' : 'Links'}</h1>
             <div className="foot-link-repsonsive">
-              <Link className="foot-link" to="/contactdashboard">
+              <Link className="foot-link" to="/">
+                {language === 'es' ? 'Inicio' : 'Home'}
+              </Link>
+              <Link className="foot-link" to="/about">
                 {language === 'es' ? 'Acerca de' : 'About'}
               </Link>
-              <Link className="foot-link" to="/contactdashboard/DashBoardFAQ">
+              <Link className="foot-link" to="/program">
                 {language === 'es' ? 'Programas' : 'Programs'}
               </Link>
-              <Link className="foot-link" to="/signin">
+              <Link className="foot-link" to="/contact">
                 {language === 'es' ? 'Contactos' : 'Contacts'}
-              </Link>
-              <Link className="foot-link" to="/signup">
-                {language === 'es' ? 'N/A' : 'N/A'}
               </Link>
             </div>
           </div>
