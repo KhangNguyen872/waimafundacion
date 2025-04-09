@@ -47,7 +47,7 @@ export default function MenubarLanding() {
         { label: language === "es" ? "Informe DIAN 2018" : "Report DIAN 2018", icon: "pi pi-fw pi-file" , command: () => navigate("/reports", { state: { year: '2018' } })},
         { label: language === "es" ? "Informe DIAN 2019" : "Report DIAN 2019", icon: "pi pi-fw pi-file" , command: () => navigate("/reports", { state: { year: '2019' } })},
         { label: language === "es" ? "Informe DIAN 2020" : "Report DIAN 2020", icon: "pi pi-fw pi-file" , command: () => navigate("/reports", { state: { year: '2020' } })},
-        { label: language === "es" ? "Informe DIAN 2021" : "Report DIAN 2021", icon: "pi pi-fw pi-file" , command: () => navigate("/reports", { state: { year: '2021' } })},
+        { label: language === "es" ? "Informe DIAN 2021" : "Report DIAN 2021", icon: "pi pi-fw pi-file" , command: () => navigate("/reports", { state: { year: '2021' } })}
       ],
     },
     {

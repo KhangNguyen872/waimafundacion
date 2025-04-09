@@ -1,8 +1,18 @@
+.contact-AboutCard-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 .contactWrapper-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     column-gap: 5%;
     row-gap: 10%;
+    height: auto;
 }
 
 @media screen and (max-width: 500px) {
@@ -12,4 +22,39 @@
         row-gap: 5%;
     }
     
+}
+
+@media (max-width: 1268px) {
+    .contact-CardText-wrap {
+        margin-bottom: 9rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactWrapper-grid {
+        display: flex;
+        flex-direction: column; 
+        gap: 2rem; 
+    }
+
+    .contactWrapper-grid > div {
+        width: 100%; 
+        margin: 0 auto; 
+        padding: 1rem; 
+        box-sizing: border-box; 
+    }
+
+    .contact-CardText-wrap {
+        margin-top: 2rem; 
+        margin-bottom: 0rem !important;
+    }
+
+    h1 {
+        font-size: 1.5rem !important; 
+    }
+
+    p {
+        font-size: 1rem !important; 
+        line-height: 1.5; 
+    }
 }

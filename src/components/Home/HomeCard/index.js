@@ -126,7 +126,7 @@ const CardSection = () => {
         <Card
           title={item.title}
           subTitle={item.date}
-          style={{ borderLeft: `5px solid ${item.color}` }}
+          style={{ borderLeft: `5px solid ${item.color}`}}
           className="timeline-card"
         >
           <p>{item.description}</p>

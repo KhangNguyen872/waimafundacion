@@ -33,12 +33,13 @@
 
     .contact-AboutCard-wrapper {
         width: 100%;
-        height: auto;
+        height: 100%;
         min-height: 20vh;
         background-color: white;
         border-radius: 10px;
         padding: 5%;
         column-gap: 5%;
+
     
         div {
             .img {
@@ -109,7 +110,6 @@
             }
             .contact-tags {
                 grid-template-columns: 1fr;
-                transform: translate(50%);
             }
             .tag {
                 font-size: 1.2rem;
@@ -223,6 +223,7 @@
         font-size: 2rem;
     }
 }
+
 @media (max-width:768px) {
     .contact-introHeader-wrap {
         h1 {
