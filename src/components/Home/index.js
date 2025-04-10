@@ -53,12 +53,12 @@ const Home = () => {
                 <div className="button-switch">
                   <h2 className="hover-state-1">
                     <Link className="link-txt" to="/about">
-                      {language === 'es' ? 'Aprende Más' : 'Learn More'}
+                      {language === 'es' ? 'Conoce Más' : 'Learn More'}
                     </Link>
                   </h2>
                   <h3 className="hover-state-2">
                     <Link className="link-txt" to="/contact">
-                      {language === 'es' ? 'Contáctenos' : 'Contact Us'}
+                      {language === 'es' ? 'Contáctanos' : 'Contact Us'}
                     </Link>
                     <div className="switch-block"></div>
                   </h3>

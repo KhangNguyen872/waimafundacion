@@ -153,7 +153,7 @@ export default function DashBoardContact() {
                             </h1>
                             <p>
                                 {language === "es"
-                                ? "En el año 2020, la Fundación Waima será sostenible, y posicionada a nivel regional como una entidad incluyente, a través de la ejecución de proyectos sociales y productivos, construidos de forma autónoma y en alianza con otras entidades."
+                                ? "En el año 2033, la Fundación Waima será sostenible, y posicionada a nivel regional como una entidad incluyente, a través de la ejecución de proyectos sociales y productivos, construidos de forma autónoma y en alianza con otras entidades."
                                 :   "By 2033, the Waima Foundation will be sustainable and recognized at regional and national levels as an inclusive entity with social impact, through the execution of social and productive projects, built autonomously and in alliance with other entities."}
                             </p>
                         </div>
