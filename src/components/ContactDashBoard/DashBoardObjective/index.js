@@ -68,7 +68,7 @@ export default function DashBoardObjective() {
                     <br />
                     <div className='contactWrapper-grid'>
                         <div>
-                            <h1>{colorizeText(language === "es" ? "OBJETIVO GENERAL:" : "General Objective")}</h1>
+                            <h1>{colorizeText(language === "es" ? "OBJETIVO GENERAL" : "General Objective")}</h1>
                             <p>
                                 {language === "es"
                                     ? "Promover procesos de inclusión social y laboral a personas que tengan vulnerabilidad económica y-o discapacidad, a través del fortalecimiento de sus capacidades y habilidades y el fomento de oportunidades para el logro de la autonomía y la calidad de vida."
